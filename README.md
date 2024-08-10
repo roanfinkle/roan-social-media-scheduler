@@ -10,5 +10,6 @@ Next, in order to run DEA, I used R studio to remove some columns and create dum
 
 Finally we have SeattleDEA.R which is our optimization model. Assuming all filepaths are correct, this should run smoothly. However, the model isn't calculating the precise efficiency scores correctly, and we never figured out why. However, when you plot the frontier, you can spot the key DMUs that we need.
 
-
-
+If you find there is a lack of explanation somewhere or are confused, please reach out:
+rfinkle@purdue.edu
+rfinkle@nd.edu
