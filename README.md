@@ -8,7 +8,7 @@ Next is AssemblingSeattleTimes.py. This cleans up the time of the post, runs sen
 
 Next, in order to run DEA, I used R studio to remove some columns and create dummy variables for weekday & hour. For example, a post from Sunday at 1pm will have the Asent Sentiment score in Sunday column, Textblob Sentiment score in Hour13 column, and 0 in all other weekday & hour columns. The final dataframe that will be used for DEA is seattle_with_dummies.csv.
 
-Finally we have SeattleDEA.R which is our optimization model. Assuming all filepaths are correct, this should run smoothly. However, the model isn't calculating the precise efficiency scores correctly, and we never figured out why. However, when you plot the frontier, you can spot the key DMUs that we need.
+Finally we have SeattleDEA.R which is our optimization model for the Seattle dataset. Assuming all filepaths are correct, this should run smoothly. However, the model isn't calculating the precise efficiency scores correctly, and we never figured out why. However, when you plot the frontier, you can spot the key DMUs that we need.
 
 If you get confused or have any questions, please reach out:
 rfinkle@purdue.edu , rfinkle@nd.edu
