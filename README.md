@@ -10,5 +10,7 @@ Next, in order to run DEA, I used R studio to remove some columns and create dum
 
 Finally we have SeattleDEA.R which is our optimization model for the Seattle dataset. Assuming all filepaths are correct, this should run smoothly. However, the model isn't calculating the precise efficiency scores correctly, and we never figured out why. However, when you plot the frontier, you can spot the key DMUs that we need.
 
+I've also attached a public dataset that I found online and cleaned to the best of my ability, newspapers-facebook.csv. Here is the link that I got it from, there is still more to clean if necessary: https://data.world/martinchek/2012-2016-facebook-posts/workspace/project-summary?agentid=martinchek&datasetid=2012-2016-facebook-posts
+
 If you get confused or have any questions, please reach out:
 rfinkle@purdue.edu , rfinkle@nd.edu
