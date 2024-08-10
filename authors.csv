@@ -1,0 +1,5707 @@
+,authors
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12,
+13,
+14,
+15,
+16,
+17,
+18,
+19,
+20,
+21,
+22,
+23,
+24,
+25,
+26,
+27,
+28,
+29,
+30,
+31,
+32,
+33,
+34,
+35,
+36,
+37,
+38,
+39,
+40,
+41,
+42,
+43,
+44,
+45,
+46,
+47,
+48,
+49,
+50,
+51,
+52,
+53,
+54,
+55,
+56,
+57,
+58,
+59,
+60,
+61,
+62,
+63,
+64,
+65,
+66,
+67,
+68,
+69,
+70,
+71,
+72,
+73,
+74,
+75,
+76,
+77,
+78,
+79,
+80,
+81,
+82,
+83,
+84,
+85,
+86,
+87,
+88,
+89,
+90,
+91,
+92,
+93,
+94,
+95,
+96,
+97,
+98,
+99,
+100,
+101,
+102,
+103,
+104,
+105,
+106,
+107,
+108,
+109,
+110,
+111,
+112,
+113,
+114,
+115,
+116,
+117,
+118,
+119,
+120,
+121,
+122,
+123,
+124,
+125,
+126,
+127,
+128,
+129,
+130,
+131,
+132,
+133,
+134,
+135,
+136,
+137,
+138,
+139,
+140,
+141,
+142,
+143,
+144,
+145,
+146,
+147,
+148,
+149,
+150,
+151,
+152,
+153,
+154,
+155,
+156,
+157,
+158,
+159,
+160,
+161,
+162,
+163,
+164,
+165,
+166,
+167,
+168,
+169,
+170,
+171,
+172,
+173,
+174,
+175,
+176,
+177,
+178,
+179,
+180,
+181,
+182,
+183,
+184,
+185,
+186,
+187,
+188,
+189,
+190,
+191,
+192,
+193,
+194,
+195,
+196,
+197,
+198,
+199,
+200,
+201,
+202,
+203,
+204,
+205,
+206,
+207,
+208,
+209,
+210,
+211,
+212,
+213,
+214,
+215,
+216,
+217,
+218,
+219,
+220,
+221,
+222,
+223,
+224,
+225,
+226,
+227,
+228,
+229,
+230,
+231,
+232,
+233,
+234,
+235,
+236,
+237,
+238,
+239,
+240,
+241,
+242,
+243,
+244,
+245,
+246,
+247,
+248,
+249,
+250,
+251,
+252,
+253,
+254,
+255,
+256,
+257,
+258,
+259,
+260,
+261,
+262,
+263,
+264,
+265,
+266,
+267,
+268,
+269,
+270,
+271,
+272,
+273,
+274,
+275,
+276,
+277,
+278,
+279,
+280,
+281,
+282,
+283,
+284,
+285,
+286,
+287,
+288,
+289,
+290,
+291,
+292,
+293,
+294,
+295,
+296,
+297,
+298,
+299,
+300,
+301,
+302,
+303,
+304,
+305,
+306,
+307,
+308,
+309,
+310,
+311,
+312,
+313,
+314,
+315,
+316,
+317,
+318,
+319,
+320,
+321,
+322,
+323,
+324,
+325,
+326,
+327,
+328,
+329,
+330,
+331,
+332,
+333,
+334,
+335,
+336,
+337,
+338,
+339,
+340,
+341,
+342,
+343,
+344,
+345,
+346,
+347,
+348,
+349,
+350,
+351,
+352,
+353,
+354,
+355,
+356,
+357,
+358,
+359,
+360,
+361,
+362,
+363,
+364,
+365,
+366,
+367,
+368,
+369,
+370,
+371,
+372,
+373,
+374,
+375,
+376,
+377,
+378,
+379,
+380,
+381,
+382,
+383,
+384,
+385,
+386,
+387,
+388,
+389,
+390,
+391,
+392,
+393,
+394,
+395,
+396,
+397,
+398,
+399,
+400,
+401,
+402,
+403,
+404,
+405,
+406,
+407,
+408,
+409,
+410,
+411,
+412,
+413,
+414,
+415,
+416,
+417,
+418,
+419,
+420,
+421,
+422,
+423,
+424,
+425,
+426,
+427,
+428,
+429,
+430,
+431,
+432,
+433,
+434,
+435,
+436,
+437,
+438,
+439,
+440,
+441,
+442,
+443,
+444,
+445,
+446,
+447,
+448,
+449,
+450,
+451,
+452,
+453,
+454,
+455,
+456,
+457,
+458,
+459,
+460,
+461,soren andersen
+462,
+463,soren andersen
+464,
+465,tom keogh
+466,andrew gospe
+467,daniel beekman
+468,geoff baker
+469,colin diltz
+470,providence cicero
+471,ángel gonzález
+472,brian j. cantwell
+473,letters editor
+474,moira macdonald
+475,bethany jean clement
+476,daniel beekman
+477,becky bohrer
+478,bob condotta
+479,lynn thompson
+480,seattle times staff
+481,carrie dennett
+482,paresh dave
+483,bob condotta
+484,mike carter
+485,seattle times staff
+486,tan vinh
+487,bob condotta
+488,tan vinh
+489,paige cornwell
+490,
+491,misha berson
+492,jayson jenks
+493,tyrone beason
+494,daniel beekman
+495,"david mchugh, tom krisher"
+496,
+497,paige cornwell
+498,jon talton
+499,matt calkins
+500,don shelton
+501,valerie easton
+502,carolyn lubenau
+503,evan bush
+504,adam jude
+505,danny westneat
+506,madeline mckenzie
+507,daniel beekman
+508,jessica lee
+509,bethany jean clement
+510,bethany jean clement
+511,steve miletich
+512,matt day
+513,evan bush
+514,
+515,
+516,"julie pace, lisa lerer"
+517,rick lund
+518,brian j. cantwell
+519,michael upchurch
+520,the associated press
+521,daniel beekman
+522,"colin diltz, courtney riffkin"
+523,the associated press
+524,lewis kamb
+525,jerry large
+526,mike carter
+527,jon talton
+528,melissa davis
+529,rick steves' europe
+530,paige cornwell
+531,
+532,rebekah denn
+533,seattle times staff
+534,anita kumar
+535,benjamin woodard
+536,"rebecca boone, keith ridler"
+537,compiled by times staff
+538,stefanie loh
+539,brian melley
+540,bob condotta
+541,nicole brodeur
+542,alan berner
+543,angel gonzalez
+544,evan bush
+545,maxine bernstein
+546,amy zipkin
+547,misha berson
+548,mark morical
+549,gretchen mckay
+550,bob condotta
+551,seattle times staff
+552,the associated press
+553,brian j. cantwell
+554,martha bellisle
+555,sara jean green
+556,paige cornwell
+557,adam jude
+558,nicole tsong
+559,the associated press
+560,adam jude
+561,angel gonzalez
+562,blanca torres
+563,gene balk / fyi guy
+564,
+565,gayle clemans
+566,jack stone truitt
+567,jack broom
+568,larry stone
+569,carrie dennett
+570,geoff baker
+571,features staff
+572,nina shapiro
+573,bob condotta
+574,nina shapiro
+575,evan bush
+576,angel gonzalez
+577,ed guzman
+578,sy bean
+579,larry stone
+580,mary hudetz
+581,sean quinton
+582,michael upchurch
+583,bob condotta
+584,stephen ohlemacher
+585,larry stone
+586,mike lindblom
+587,bob condotta
+588,adam jude
+589,jayson jenks
+590,sean quinton
+591,seattle times staff
+592,paul barrett
+593,paul barrett
+594,paul barrett
+595,paul barrett
+596,sean quinton
+597,mike lindblom
+598,bob young
+599,katherine long
+600,mike lindblom
+601,seattle times staff
+602,misha berson
+603,sean quinton
+604,stefanie loh
+605,coral garnick
+606,the seattle times editorial board
+607,danny westneat
+608,
+609,matt calkins
+610,mike lindblom
+611,bob condotta
+612,paige cornwell
+613,jay greene
+614,jeff layton
+615,paul barrett
+616,paul de barros
+617,nicole brodeur
+618,ciscoe morris
+619,suzan fraser
+620,the associated press
+621,jim brunner
+622,
+623,seattle times sports staff
+624,john hartl
+625,"jim brunner, hal bernton"
+626,katrin bennhold
+627,seattle times staff
+628,valerie easton
+629,soren andersen
+630,mike lindblom
+631,mike lindblom
+632,andy perdue
+633,katie g. cotterill
+634,charlie zaillian
+635,seattle times staff
+636,seattle times staff
+637,evan bush
+638,craig hill
+639,
+640,ron judd
+641,josh liebeskind
+642,adam jude
+643,gosia wozniacka
+644,jeff layton
+645,larry stone
+646,julie holland
+647,sean quinton
+648,rachel lerman
+649,coral garnick
+650,jayson jenks
+651,ryan divish
+652,seattle sketcher gabriel campanario
+653,providence cicero
+654,rachel lerman
+655,matt calkins
+656,tom keogh
+657,adam jude
+658,marcia dunn
+659,paul dorpat
+660,jessica lee
+661,bethany jean clement
+662,bob condotta
+663,jessica lee
+664,colin diltz
+665,jim brunner
+666,
+667,bree fowler
+668,michael liedtke
+669,mary ann gwinn
+670,"janet mcconnaughey, rebecca santana"
+671,jonel aleccia
+672,sandi doughton
+673,"colin diltz, courtney riffkin"
+674,bob condotta
+675,jayson jenks
+676,john hartl
+677,bob condotta
+678,the seattle times editorial board
+679,annette cary
+680,evan bush
+681,erica werner
+682,gina cole
+683,"don thompson, julie watson"
+684,
+685,mike lindblom
+686,jessica lee
+687,jessica lee
+688,bob young
+689,rachel lerman
+690,coral garnick
+691,ryan divish
+692,bob condotta
+693,kim severson
+694,michelle chapman
+695,malin rising
+696,mike corder
+697,dominic gates
+698,jon talton
+699,valerie easton
+700,"patrick mcgreevy, chris megerian"
+701,evan bush
+702,tan vinh
+703,matt pentz
+704,gina cole
+705,the associated press
+706,ryan divish
+707,madeline mckenzie
+708,danny westneat
+709,the associated press
+710,rebekah denn
+711,seattle sketcher gabriel campanario
+712,
+713,jay greene
+714,seattle times staff
+715,bethany jean clement
+716,sheila hagar
+717,aaron spencer
+718,"jonel aleccia, coral garnick"
+719,
+720,joseph o’sullivan
+721,caitlin moran
+722,ángel gonzález
+723,lynda v. mapes
+724,
+725,
+726,jonel aleccia
+727,jason victor serinus
+728,lewis kamb
+729,andy perdue
+730,marcia dunn
+731,ciscoe morris
+732,ron judd
+733,brian j. cantwell
+734,
+735,misha berson
+736,jack stone truitt
+737,brian j. cantwell
+738,mike ramos
+739,
+740,providence cicero
+741,moira macdonald
+742,
+743,jon talton
+744,tricia romano
+745,rebecca teagarden
+746,stefanie loh
+747,jayson jenks
+748,tom keogh
+749,kelvin chan
+750,mike lindblom
+751,ángel gonzález
+752,sarah stuteville
+753,jill o'connor
+754,
+755,ángel gonzález
+756,mike lindblom
+757,jayson jenks
+758,christine clarridge
+759,jayson jenks
+760,hal bernton
+761,bob condotta
+762,sanjay bhatt
+763,the seattle times editorial board
+764,tom keogh
+765,andy perdue
+766,erica werner
+767,don shelton
+768,evan bush
+769,bethany jean clement
+770,bethany jean clement
+771,collin binkley
+772,paul dorpat
+773,louise watt
+774,the associated press
+775,bob condotta
+776,rachel lerman
+777,the associated press
+778,bob condotta
+779,
+780,the associated press
+781,coral garnick
+782,jennifer sullivan
+783,dominic gates
+784,mark morical
+785,matt calkins
+786,matt day
+787,the associated press
+788,katie g. cotterill
+789,
+790,matt pentz
+791,mary ann gwinn
+792,bob condotta
+793,erik lacitis
+794,"christopher s. rugaber, stephen ohlemacher"
+795,seattle times staff
+796,
+797,brian j. cantwell
+798,"kimberley mcgee, julie turkewitz"
+799,steve miletich
+800,sandi doughton
+801,
+802,john higgins
+803,seattle times staff
+804,tan vinh
+805,valerie easton
+806,carrie dennett
+807,hal bernton
+808,evan bush
+809,bethany jean clement
+810,benjamin woodard
+811,jack broom
+812,nick eaton
+813,the seattle times editorial board
+814,joseph pisani
+815,bob condotta
+816,alan rappeport
+817,daniel beekman
+818,erica werner
+819,don shelton
+820,danny westneat
+821,christine clarridge
+822,mike lindblom
+823,larry stone
+824,matt day
+825,stefanie loh
+826,matt pentz
+827,catherine lucey
+828,sara jean green
+829,"colin diltz, paige collins"
+830,daniel beekman
+831,seattle times staff
+832,jonel aleccia
+833,"sarah el deeb, suzan fraser"
+834,katie g. cotterill
+835,jack stone truitt
+836,providence cicero
+837,matt pentz
+838,dominic gates
+839,evan bush
+840,alice kaderlan
+841,jonel aleccia
+842,jessica lee
+843,jack stone truitt
+844,rick steves' europe
+845,michael liedtke
+846,seattle times staff
+847,nicole brodeur
+848,percy allen
+849,coral garnick
+850,patrick clark
+851,
+852,lynn jacobson
+853,sanjay bhatt
+854,evan bush
+855,bryan thomas
+856,jessica lee
+857,"manuel valdes, jeremy hainsworth"
+858,marcia dunn
+859,"emily wagster pettus, jeff amy"
+860,tamara lush
+861,seth borenstein
+862,submitted by seattle times readers
+863,the associated press
+864,the associated press
+865,ángel gonzález
+866,benjamin woodard
+867,jeff albertson
+868,seattle times staff
+869,jennifer peltz
+870,"lynne o'donnell, riaz khan"
+871,alan berner
+872,seattle times staff
+873,
+874,bob young
+875,stefanie loh
+876,seattle times staff
+877,evan bush
+878,nicole tsong
+879,doug knoop
+880,jeff albertson
+881,misha berson
+882,seattle times staff
+883,stefanie loh
+884,katie workman
+885,mike lindblom
+886,the associated press
+887,elizabeth karmel
+888,seattle times staff
+889,jonel aleccia
+890,seattle times staff
+891,jerry large
+892,evan bush
+893,seattle times staff
+894,
+895,claire galofaro
+896,jeremy hainsworth
+897,"william neuman, elisabeth malkin"
+898,jon talton
+899,matt pentz
+900,sara jean green
+901,the associated press
+902,tan vinh
+903,paul j. weber
+904,stefanie loh
+905,janie har
+906,bob condotta
+907,misha berson
+908,rachel d'oro
+909,coral garnick
+910,mark sherman
+911,steve miletich
+912,
+913,jane e. brody
+914,erik lacitis
+915,gene balk / fyi guy
+916,larry stone
+917,ula ilnytzky
+918,justin juozapavicius
+919,stefanie loh
+920,seattle times staff
+921,mike lindblom
+922,paige cornwell
+923,bob condotta
+924,misha berson
+925,owen r. smith
+926,moira macdonald
+927,patrick marshall
+928,paige cornwell
+929,sanjay bhatt
+930,seattle sketcher gabriel campanario
+931,mike lindblom
+932,
+933,
+934,jayson jenks
+935,mary ann gwinn
+936,mike lindblom
+937,evan bush
+938,
+939,lynn jacobson
+940,jessica lee
+941,christopher sherman
+942,michael muskal
+943,christopher sherman
+944,ed guzman
+945,michael upchurch
+946,jing cao
+947,rebecca teagarden
+948,hugh millen
+949,larry neumeister
+950,ken thomas
+951,andy perdue
+952,
+953,mike lindblom
+954,
+955,bob condotta
+956,
+957,paige cornwell
+958,melinda bargreen
+959,larry stone
+960,paige cornwell
+961,carrie dennett
+962,seattle times staff
+963,seattle times staff
+964,qassim abdul-zahra
+965,jon talton
+966,seattle times staff
+967,kate prengaman
+968,ross courtney
+969,lauren frohne
+970,larry stone
+971,joseph o'sullivan
+972,"christopher s. rugaber, calvin woodward"
+973,"greg keller, philippe sotto"
+974,coral garnick
+975,sandi doughton
+976,stefanie loh
+977,danica kirka
+978,alan berner
+979,adam jude
+980,dina bass
+981,jayson jenks
+982,the associated press
+983,the associated press
+984,matt calkins
+985,
+986,coral garnick
+987,mesfin fekadu
+988,bob condotta
+989,seattle times staff
+990,seattle times staff
+991,"lisa lerer, ken thomas"
+992,mike ramos
+993,
+994,paul barrett
+995,mark yuasa
+996,
+997,danny westneat
+998,coral garnick
+999,jayson jenks
+1000,
+1001,erik lacitis
+1002,sean quinton
+1003,jessica lee
+1004,stefanie loh
+1005,"greg keller, jamey keaten"
+1006,jessica lee
+1007,"adam nossiter, andrew higgins"
+1008,nina shapiro
+1009,"lori hinnant, greg keller"
+1010,seattle times staff
+1011,the associated press
+1012,paul dorpat
+1013,"lori hinnant, greg keller"
+1014,kathryn true
+1015,rebecca teagarden
+1016,mike lindblom
+1017,robert channick
+1018,moira macdonald
+1019,bethany jean clement
+1020,liam stack
+1021,brian j. cantwell
+1022,bob payne
+1023,sanjay bhatt
+1024,seattle times staff
+1025,jim brunner
+1026,melissa davis
+1027,"rami grunbaum, janet i. tu"
+1028,denise grady
+1029,katherine long
+1030,jennifer sullivan
+1031,geoff baker
+1032,seattle times staff
+1033,bob condotta
+1034,bob condotta
+1035,brian j. cantwell
+1036,sanjay bhatt
+1037,jessica lee
+1038,dan a. nelson
+1039,janet i. tu
+1040,ryan divish
+1041,"katherine long, brendan kiley"
+1042,"katherine long, brendan kiley"
+1043,andy perdue
+1044,nick eaton
+1045,brian j. cantwell
+1046,providence cicero
+1047,colin diltz
+1048,kelvin chan
+1049,blanca torres
+1050,bloomberg news
+1051,soren andersen
+1052,
+1053,ben stocking
+1054,mike lindblom
+1055,
+1056,evan bush
+1057,don shelton
+1058,jessica lee
+1059,christine clarridge
+1060,erik lacitis
+1061,geoff baker
+1062,bob condotta
+1063,geoff baker
+1064,
+1065,richard seven
+1066,beth harris
+1067,andrew gospe
+1068,gillian g. gaar
+1069,marcia dunn
+1070,rachel lerman
+1071,seattle times staff
+1072,valerie easton
+1073,danny westneat
+1074,hal bernton
+1075,bob condotta
+1076,mike carter
+1077,seattle times staff
+1078,bethany jean clement
+1079,mark pratt
+1080,lewis kamb
+1081,"bethany jean clement, brian thomas gallagher"
+1082,the associated press
+1083,
+1084,matt day
+1085,jayson jenks
+1086,
+1087,larry stone
+1088,sara jean green
+1089,brian j. cantwell
+1090,
+1091,brian j. cantwell
+1092,larry stone
+1093,christine clarridge
+1094,mike lindblom
+1095,the associated press
+1096,jessica lee
+1097,bob condotta
+1098,jon talton
+1099,bob condotta
+1100,misha berson
+1101,percy allen
+1102,matthew barakat
+1103,anika anand
+1104,seattle times staff
+1105,harry atkins
+1106,matt calkins
+1107,evan bush
+1108,nicole brodeur
+1109,jack stone truitt
+1110,providence cicero
+1111,evan bush
+1112,"julie watson, mike schneider"
+1113,lynn thompson
+1114,
+1115,barronelle stutzman
+1116,rami grunbaum
+1117,"john o'connor, jill colvin"
+1118,jack broom
+1119,jessica lee
+1120,rachel lerman
+1121,moira macdonald
+1122,misha berson
+1123,moira macdonald
+1124,jack stone truitt
+1125,adam jude
+1126,jonel aleccia
+1127,bob condotta
+1128,jonel aleccia
+1129,sydney ember
+1130,bob condotta
+1131,jack broom
+1132,stefanie ellis
+1133,ryan divish
+1134,the associated press
+1135,bob condotta
+1136,soren andersen
+1137,david karp
+1138,stefanie loh
+1139,nicole tsong
+1140,bob condotta
+1141,rachel lerman
+1142,lynda v. mapes
+1143,"summer ballentine, jim suhr"
+1144,ken lambert
+1145,evan bush
+1146,sy bean
+1147,seattle times staff
+1148,nick wingfield
+1149,nick eaton
+1150,karl ritter
+1151,
+1152,the associated press
+1153,matt pentz
+1154,seattle times staff
+1155,justin pritchard
+1156,mark gillispie
+1157,sanjay bhatt
+1158,alejandra cancino
+1159,david b. williams
+1160,michael hill
+1161,seattle times staff
+1162,cathy bussewitz
+1163,katherine long
+1164,stefanie loh
+1165,catherine saint louis
+1166,bob condotta
+1167,emily s. rueb
+1168,larry stone
+1169,jonel aleccia
+1170,adam jude
+1171,
+1172,adam jude
+1173,matt calkins
+1174,misha berson
+1175,gosia wozniacka
+1176,stefanie loh
+1177,seattle times staff
+1178,gene balk / fyi guy
+1179,jessica lee
+1180,
+1181,sara jean green
+1182,seattle times staff
+1183,hal bernton
+1184,"sara jean green, christine clarridge"
+1185,bob condotta
+1186,evan bush
+1187,evan bush
+1188,adam jude
+1189,seattle times staff
+1190,ron judd
+1191,nina shapiro
+1192,adam jude
+1193,seattle times staff
+1194,mike carter
+1195,jack stone truitt
+1196,dominic gates
+1197,bob condotta
+1198,christine clarridge
+1199,mike lindblom
+1200,chris wilke
+1201,bob condotta
+1202,"julie johnsson, andrey biryukov"
+1203,bob condotta
+1204,rebecca teagarden
+1205,letters editor
+1206,bethany jean clement
+1207,seattle times staff
+1208,dominic gates
+1209,"steve peoples, sergio bustos"
+1210,dominic gates
+1211,sergio bustos
+1212,
+1213,geoff baker
+1214,doug knoop
+1215,"katherine long, jessica lee"
+1216,bob condotta
+1217,jon talton
+1218,nicole tsong
+1219,matt calkins
+1220,jay greene
+1221,dylan j. darling
+1222,the seattle times editorial board
+1223,ed guzman
+1224,tricia romano
+1225,jim brunner
+1226,tyler leeds
+1227,dave dyer
+1228,matt calkins
+1229,
+1230,larry stone
+1231,bob condotta
+1232,jay greene
+1233,alan berner
+1234,bob condotta
+1235,jayson jenks
+1236,sean quinton
+1237,ed guzman
+1238,bob condotta
+1239,ed guzman
+1240,bob young
+1241,seattle times staff
+1242,ed guzman
+1243,seth borenstein
+1244,seattle times staff
+1245,
+1246,the associated press
+1247,joseph o’sullivan
+1248,katherine long
+1249,
+1250,daniel beekman
+1251,ricardo alonso-zaldivar
+1252,jim camden
+1253,kelvin chan
+1254,frances robles
+1255,
+1256,joseph o’sullivan
+1257,seattle times staff
+1258,danny westneat
+1259,matt pentz
+1260,
+1261,mark yuasa
+1262,josh farley
+1263,stacia glenn
+1264,seattle times staff
+1265,bob condotta
+1266,seattle times staff
+1267,bob condotta
+1268,
+1269,paul barrett
+1270,erik lacitis
+1271,seattle sketcher gabriel campanario
+1272,moira macdonald
+1273,jay greene
+1274,"adam jude, stefanie loh"
+1275,
+1276,bob condotta
+1277,"janet i. tu, coral garnick"
+1278,coral davenport
+1279,carrie dennett
+1280,seattle times staff
+1281,melissa davis
+1282,nicole brodeur
+1283,seattle times staff
+1284,andy perdue
+1285,paul dorpat
+1286,larry stone
+1287,seattle times staff
+1288,matt calkins
+1289,bethany jean clement
+1290,bob condotta
+1291,carrie dennett
+1292,adam jude
+1293,matt pentz
+1294,sean quinton
+1295,percy allen
+1296,doug knoop
+1297,melissa davis
+1298,rebecca teagarden
+1299,seattle times staff
+1300,bob payne
+1301,craig hill
+1302,
+1303,gene balk / fyi guy
+1304,lynda v. mapes
+1305,lynn jacobson
+1306,moira macdonald
+1307,paige cornwell
+1308,lynn jacobson
+1309,dan bilefsky
+1310,sarah stuteville
+1311,the associated press
+1312,sara jean green
+1313,seattle times staff
+1314,
+1315,jayson jenks
+1316,ed guzman
+1317,neil macfarquhar
+1318,ken lambert
+1319,adam jude
+1320,olga r. rodriguez
+1321,erik lacitis
+1322,larry stone
+1323,kristin jackson
+1324,
+1325,adam jude
+1326,sean quinton
+1327,stefanie loh
+1328,janet i. tu
+1329,the seattle times editorial board
+1330,mark yuasa
+1331,doug knoop
+1332,lynda v. mapes
+1333,tyrone beason
+1334,bob condotta
+1335,seattle times staff
+1336,seattle times staff
+1337,seattle times staff
+1338,
+1339,bethany jean clement
+1340,madeline mckenzie
+1341,soren andersen
+1342,the seattle times editorial board
+1343,brian j. cantwell
+1344,bethany jean clement
+1345,
+1346,stefanie loh
+1347,
+1348,bethany jean clement
+1349,coral garnick
+1350,stefanie loh
+1351,katherine long
+1352,bob condotta
+1353,valerie easton
+1354,jennifer sullivan
+1355,seattle times staff
+1356,don shelton
+1357,danny westneat
+1358,"bethany jean clement, brian thomas gallagher"
+1359,evan bush
+1360,brian j. cantwell
+1361,the associated press
+1362,"jim heintz, suzan fraser"
+1363,julie pace
+1364,allen g. breed
+1365,percy allen
+1366,rebekah denn
+1367,bob condotta
+1368,rick steves' europe
+1369,seattle times staff
+1370,brian thomas gallagher
+1371,bethany jean clement
+1372,jayson jenks
+1373,ryan divish
+1374,seattle times staff
+1375,steve miletich
+1376,nicole brodeur
+1377,jack broom
+1378,dominic gates
+1379,bob condotta
+1380,sanjay bhatt
+1381,nicole brodeur
+1382,jill o'connor
+1383,matt calkins
+1384,
+1385,evan bush
+1386,
+1387,lewis kamb
+1388,"katherine long, coral garnick"
+1389,jessica lee
+1390,lewis kamb
+1391,mae anderson
+1392,"moira macdonald, jack stone truitt"
+1393,ken sweet
+1394,jeff albertson
+1395,nicole tsong
+1396,melissa davis
+1397,hugh millen
+1398,nicole tsong
+1399,adam jude
+1400,glenn garvin
+1401,ryan divish
+1402,farai mutsaka
+1403,
+1404,sean quinton
+1405,seattle times staff
+1406,mike lindblom
+1407,stefanie loh
+1408,ellen reichman
+1409,jack broom
+1410,larry stone
+1411,christine clarridge
+1412,bob condotta
+1413,jack broom
+1414,moira macdonald
+1415,ed guzman
+1416,bob young
+1417,steve miletich
+1418,john lok
+1419,
+1420,seattle times staff
+1421,letters editor
+1422,janet mcconnaughey
+1423,andrea chang
+1424,geoff baker
+1425,larry stone
+1426,bob condotta
+1427,matt calkins
+1428,lynn thompson
+1429,bob condotta
+1430,jayson jenks
+1431,bob condotta
+1432,sean quinton
+1433,geoff baker
+1434,seattle times staff
+1435,paul barrett
+1436,adam jude
+1437,paul barrett
+1438,bob condotta
+1439,bob young
+1440,mike carter
+1441,
+1442,danny westneat
+1443,jack broom
+1444,lynda v. mapes
+1445,coral garnick
+1446,
+1447,melinda deslatte
+1448,esther htusan
+1449,stefanie loh
+1450,the seattle times editorial board
+1451,patrick healy
+1452,scott collins
+1453,
+1454,bob condotta
+1455,daniel beekman
+1456,matt calkins
+1457,dominic gates
+1458,
+1459,mike carter
+1460,bob condotta
+1461,rob owen
+1462,david brewster
+1463,melissa davis
+1464,bob condotta
+1465,lewis kamb
+1466,seattle times staff
+1467,stefanie loh
+1468,ben stocking
+1469,jim brunner
+1470,seattle times staff
+1471,jim riley
+1472,nicole brodeur
+1473,mike lindblom
+1474,samantha masunaga
+1475,ken lambert
+1476,seattle times staff
+1477,tricia romano
+1478,jay greene
+1479,
+1480,mark yuasa
+1481,seattle times news services
+1482,
+1483,hugh millen
+1484,the seattle times editorial board
+1485,soren andersen
+1486,seattle times staff
+1487,daniel beekman
+1488,mike lindblom
+1489,"steve miletich, mike carter"
+1490,jayson jenks
+1491,seattle times news services
+1492,erik lacitis
+1493,matt calkins
+1494,bob condotta
+1495,
+1496,bob condotta
+1497,evan bush
+1498,ed guzman
+1499,bob payne
+1500,seth borenstein
+1501,kelvin chan
+1502,john lok
+1503,dan joling
+1504,julie creswelland andrew pollack
+1505,
+1506,jennifer sullivan
+1507,
+1508,jonel aleccia
+1509,larry stone
+1510,jayson jenks
+1511,
+1512,jayson jenks
+1513,
+1514,paul barrett
+1515,bob condotta
+1516,bob condotta
+1517,the associated press
+1518,sean quinton
+1519,seattle times staff
+1520,bob condotta
+1521,
+1522,paul barrett
+1523,tyrone beason
+1524,bob condotta
+1525,
+1526,matt calkins
+1527,daniel beekman
+1528,nina shapiro
+1529,mike mcphate
+1530,seattle times staff
+1531,dan bilefsky
+1532,tyrone beason
+1533,shawn marsh
+1534,brian j. cantwell
+1535,
+1536,brian j. cantwell
+1537,erik lacitis
+1538,gregory schmidt
+1539,
+1540,jessica lee
+1541,bob condotta
+1542,
+1543,matt day
+1544,bob condotta
+1545,bob condotta
+1546,bob condotta
+1547,bob condotta
+1548,the associated press
+1549,"jonel aleccia, justin mayo"
+1550,paul dorpat
+1551,seattle times staff
+1552,mary ann gwinn
+1553,andy perdue
+1554,"bill barrow, jill colvin"
+1555,danny westneat
+1556,nina shapiro
+1557,jennifer sullivan
+1558,jack broom
+1559,bob condotta
+1560,madeline mckenzie
+1561,stefanie loh
+1562,rebecca teagarden
+1563,adam jude
+1564,larry stone
+1565,bob young
+1566,
+1567,paul barrett
+1568,sandy cohen
+1569,erik lacitis
+1570,jessica lee
+1571,jonel aleccia
+1572,"christine clarridge, sara jean green"
+1573,mike lindblom
+1574,mike lindblom
+1575,nikolaj lasbo
+1576,larry stone
+1577,tan vinh
+1578,the seattle times editorial board
+1579,jeff layton
+1580,"jack broom, jessica lee"
+1581,brian j. cantwell
+1582,matt calkins
+1583,jill lawless
+1584,bob condotta
+1585,jack broom
+1586,lolita c. baldor
+1587,dominic gates
+1588,
+1589,bethany jean clement
+1590,bob condotta
+1591,ron judd
+1592,bob condotta
+1593,bethany jean clement
+1594,sara jean green
+1595,bob condotta
+1596,jon talton
+1597,jill o'connor
+1598,
+1599,
+1600,jennifer van grove
+1601,bob condotta
+1602,katie g. cotterill
+1603,misha berson
+1604,jeffrey p. mayor
+1605,rachel lerman
+1606,seattle times staff
+1607,
+1608,ellen m. banner
+1609,matt day
+1610,seattle times staff
+1611,scott mayerowitz
+1612,bethany jean clement
+1613,chris kornelis
+1614,
+1615,steve miletich
+1616,paul de barros
+1617,lynn thompson
+1618,jim brunner
+1619,valerie easton
+1620,joseph o’sullivan
+1621,
+1622,adam jude
+1623,ryan divish
+1624,kim severson
+1625,don shelton
+1626,joe fain
+1627,danny westneat
+1628,lynn jacobson
+1629,jayson jenks
+1630,associated press staff
+1631,rick steves' europe
+1632,leora y. bloom
+1633,greg keller
+1634,steve johnson
+1635,tre’vell anderson
+1636,sandi doughton
+1637,bob condotta
+1638,mike lindblom
+1639,melissa davis
+1640,jessica lee
+1641,tricia romano
+1642,dominic gates
+1643,bob condotta
+1644,"nina shapiro, jim brunner"
+1645,
+1646,blanca torres
+1647,"jack broom, jessica lee"
+1648,seattle times staff
+1649,letters editor
+1650,kelly shea
+1651,sanjay bhatt
+1652,sandi doughton
+1653,
+1654,nicole tsong
+1655,mark yuasa
+1656,
+1657,"janet i. tu, rachel lerman"
+1658,
+1659,ángel gonzález
+1660,hugh millen
+1661,
+1662,evan bush
+1663,geoff baker
+1664,audrey mcavoy
+1665,jonel aleccia
+1666,bob condotta
+1667,larry stone
+1668,adam jude
+1669,paul de barros
+1670,jeff duewel
+1671,"jack broom, jessica lee"
+1672,ryan divish
+1673,audrey mcavoy
+1674,adam jude
+1675,jason victor serinus
+1676,sara jean green
+1677,ed guzman
+1678,seattle times staff
+1679,
+1680,bob condotta
+1681,jessica lee
+1682,
+1683,mesfin fekadu
+1684,rachel lerman
+1685,eli francovich
+1686,jessica lee
+1687,the associated press
+1688,
+1689,samantha bomkamp
+1690,"don babwin, eric tucker"
+1691,lynda v. mapes
+1692,ryan divish
+1693,matt calkins
+1694,tricia romano
+1695,bob condotta
+1696,the associated press
+1697,bob condotta
+1698,
+1699,jim souhan
+1700,sean quinton
+1701,jayson jenks
+1702,
+1703,"sandi doughton, steve miletich"
+1704,
+1705,julie pace
+1706,adam jude
+1707,stefanie loh
+1708,
+1709,mayo clinic news network
+1710,paul barrett
+1711,mark yuasa
+1712,nicole brodeur
+1713,jerry large
+1714,jake uitti
+1715,seattle times staff
+1716,"lewis kamb, joseph o’sullivan"
+1717,providence cicero
+1718,christopher weber
+1719,
+1720,mary esch
+1721,seattle times staff
+1722,nina shapiro
+1723,bob young
+1724,brian j. cantwell
+1725,evan bush
+1726,madeline mckenzie
+1727,katie g. cotterill
+1728,michael upchurch
+1729,mary ann gwinn
+1730,the associated press
+1731,carrie dennett
+1732,valerie easton
+1733,brian j. cantwell
+1734,"e. eduardo castillo, michael graczyk"
+1735,sean quinton
+1736,jack broom
+1737,bethany jean clement
+1738,jon talton
+1739,bob condotta
+1740,coral garnick
+1741,matt calkins
+1742,andy hobbs
+1743,the seattle times editorial board
+1744,percy allen
+1745,sara jean green
+1746,don shelton
+1747,sanjay bhatt
+1748,maryclaire dale
+1749,christine clarridge
+1750,sanjay bhatt
+1751,claudia grisales
+1752,jack broom
+1753,christine clarridge
+1754,katherine long
+1755,percy allen
+1756,sandra pedicini
+1757,
+1758,brian j. cantwell
+1759,bob condotta
+1760,michael upchurch
+1761,jayson jenks
+1762,jeanmarie brownson
+1763,"emily schmall, elizabeth rivera"
+1764,moira macdonald
+1765,bethany jean clement
+1766,jayson jenks
+1767,rebekah denn
+1768,cyrus habib
+1769,benjamin woodard
+1770,"joseph o’sullivan, lewis kamb"
+1771,
+1772,paige cornwell
+1773,shan li
+1774,christine armario
+1775,sanjay bhatt
+1776,"emily schmall, elizabeth rivera"
+1777,joseph o’sullivan
+1778,seattle times staff
+1779,
+1780,christine clarridge
+1781,seattle times staff
+1782,bob condotta
+1783,ron judd
+1784,christine clarridge
+1785,jack broom
+1786,the seattle times editorial board
+1787,bob condotta
+1788,nicole tsong
+1789,
+1790,
+1791,percy allen
+1792,matt day
+1793,"mike baker, daniel wagner"
+1794,bob condotta
+1795,joseph o’sullivan
+1796,rebekah denn
+1797,geoff baker
+1798,matt calkins
+1799,sandi doughton
+1800,katherine long
+1801,ed guzman
+1802,the associated press
+1803,nirmala george
+1804,dan joling
+1805,the associated press
+1806,
+1807,mike carter
+1808,jayson jenks
+1809,matt calkins
+1810,larry stone
+1811,ryan divish
+1812,richard seven
+1813,bob condotta
+1814,jayson jenks
+1815,sean quinton
+1816,matt pentz
+1817,jon talton
+1818,paul barrett
+1819,keith ridler
+1820,sandy cohen
+1821,phuong le
+1822,"david warren, reese dunklin"
+1823,sean quinton
+1824,the seattle times editorial board
+1825,mike carter
+1826,ryan divish
+1827,
+1828,tricia romano
+1829,
+1830,
+1831,bob young
+1832,the olympian
+1833,brynn grimley
+1834,rachel d'oro
+1835,seattle times staff
+1836,bob young
+1837,bob condotta
+1838,liz alderman
+1839,
+1840,larry stone
+1841,sara jean green
+1842,neil irwin
+1843,
+1844,stefanie loh
+1845,adam jude
+1846,coral garnick
+1847,bob condotta
+1848,quentin hardy
+1849,"jayson jenks, bob condotta"
+1850,"moira macdonald, soren andersen"
+1851,daniel beekman
+1852,the olympian
+1853,stefanie loh
+1854,"mike baker, daniel wagner"
+1855,"mike baker, daniel wagner"
+1856,seattle sketcher gabriel campanario
+1857,
+1858,kirk johnson
+1859,seattle times staff
+1860,jack broom
+1861,erik lacitis
+1862,
+1863,mark yuasa
+1864,
+1865,madeline mckenzie
+1866,
+1867,david m. herszenhorn
+1868,matt calkins
+1869,katherine long
+1870,jessica lee
+1871,stacy cowley
+1872,the associated press
+1873,stefanie loh
+1874,bob condotta
+1875,misha berson
+1876,hillel italie
+1877,brian j. cantwell
+1878,misha berson
+1879,jayson jenks
+1880,tom keogh
+1881,christine clarridge
+1882,nicole brodeur
+1883,
+1884,tan vinh
+1885,
+1886,seattle times staff
+1887,blanca torres
+1888,rachel lerman
+1889,joseph o’sullivan
+1890,dan joling
+1891,meredith dodd
+1892,dominic gates
+1893,erik lacitis
+1894,bob condotta
+1895,"jack broom, paige cornwell, mike lindblom"
+1896,
+1897,bob condotta
+1898,the associated press
+1899,"brady mccombs, ken ritter"
+1900,carrie dennett
+1901,michael upchurch
+1902,tan vinh
+1903,seattle times staff
+1904,bob condotta
+1905,the associated press
+1906,the associated press
+1907,nomaan merchant
+1908,
+1909,jason victor serinus
+1910,jack broom
+1911,jayson jenks
+1912,kate prengaman
+1913,matt calkins
+1914,sasha frere-jones
+1915,sanjay bhatt
+1916,benjamin woodard
+1917,jonel aleccia
+1918,
+1919,sandi doughton
+1920,jessica lee
+1921,the associated press
+1922,jennifer oldham
+1923,adam jude
+1924,bethany jean clement
+1925,"paul b. hopkins, ed lazowska"
+1926,bob condotta
+1927,jill o'connor
+1928,seattle times staff
+1929,bob condotta
+1930,ryan divish
+1931,seattle sketcher gabriel campanario
+1932,daniel beekman
+1933,seattle times staff
+1934,kate prengaman
+1935,anika anand
+1936,lynda v. mapes
+1937,nicole brodeur
+1938,"joseph o’sullivan, steve miletich"
+1939,bettina hansen
+1940,
+1941,mike lindblom
+1942,lisa kelly
+1943,courtney riffkin
+1944,"new york times staff, seattle times staff"
+1945,ángel gonzález
+1946,bob condotta
+1947,the associated press
+1948,jonel aleccia
+1949,bob condotta
+1950,david tanis
+1951,courtney riffkin
+1952,katherine long
+1953,jayson jenks
+1954,misha berson
+1955,"julie johnsson, dana hull"
+1956,hugh millen
+1957,"garance burke, jonathan fahey"
+1958,"sally ho, ken ritter"
+1959,matt grady
+1960,mark yuasa
+1961,
+1962,
+1963,
+1964,
+1965,
+1966,
+1967,
+1968,
+1969,
+1970,
+1971,
+1972,
+1973,
+1974,
+1975,
+1976,
+1977,
+1978,
+1979,
+1980,
+1981,
+1982,
+1983,
+1984,
+1985,
+1986,
+1987,
+1988,
+1989,
+1990,
+1991,
+1992,
+1993,
+1994,
+1995,
+1996,
+1997,
+1998,
+1999,
+2000,
+2001,
+2002,
+2003,
+2004,
+2005,
+2006,
+2007,
+2008,
+2009,
+2010,
+2011,
+2012,
+2013,
+2014,
+2015,
+2016,
+2017,
+2018,
+2019,
+2020,
+2021,
+2022,
+2023,
+2024,
+2025,
+2026,
+2027,
+2028,
+2029,
+2030,
+2031,
+2032,
+2033,
+2034,
+2035,
+2036,
+2037,
+2038,
+2039,
+2040,
+2041,
+2042,
+2043,
+2044,
+2045,
+2046,
+2047,
+2048,
+2049,
+2050,
+2051,
+2052,
+2053,
+2054,
+2055,
+2056,
+2057,
+2058,
+2059,
+2060,
+2061,
+2062,
+2063,
+2064,
+2065,
+2066,
+2067,
+2068,
+2069,
+2070,
+2071,
+2072,
+2073,
+2074,
+2075,
+2076,
+2077,
+2078,
+2079,
+2080,
+2081,
+2082,
+2083,
+2084,
+2085,
+2086,
+2087,
+2088,
+2089,
+2090,
+2091,
+2092,
+2093,
+2094,
+2095,
+2096,
+2097,
+2098,
+2099,
+2100,
+2101,
+2102,
+2103,
+2104,
+2105,
+2106,
+2107,
+2108,
+2109,
+2110,
+2111,
+2112,
+2113,
+2114,
+2115,
+2116,
+2117,
+2118,
+2119,
+2120,
+2121,
+2122,
+2123,
+2124,
+2125,
+2126,
+2127,
+2128,
+2129,
+2130,
+2131,
+2132,
+2133,
+2134,
+2135,
+2136,
+2137,
+2138,
+2139,
+2140,
+2141,
+2142,
+2143,
+2144,
+2145,
+2146,
+2147,
+2148,
+2149,
+2150,
+2151,
+2152,
+2153,
+2154,
+2155,
+2156,
+2157,
+2158,
+2159,
+2160,
+2161,
+2162,
+2163,
+2164,
+2165,
+2166,
+2167,
+2168,
+2169,
+2170,
+2171,
+2172,
+2173,
+2174,
+2175,
+2176,
+2177,
+2178,
+2179,
+2180,
+2181,
+2182,
+2183,
+2184,
+2185,
+2186,
+2187,
+2188,
+2189,
+2190,
+2191,
+2192,
+2193,
+2194,catherine m. allchin
+2195,ron judd
+2196,bethany jean clement
+2197,mike lindblom
+2198,lynn jacobson
+2199,mark yuasa
+2200,nicole brodeur
+2201,gene balk / fyi guy
+2202,sandi doughton
+2203,steve chawkins
+2204,max grinnell
+2205,jennifer sullivan
+2206,
+2207,
+2208,mike lindblom
+2209,
+2210,
+2211,jennifer sullivan
+2212,rich landers
+2213,gene balk / fyi guy
+2214,ryan divish
+2215,matt day
+2216,mike lindblom
+2217,lynn jacobson
+2218,andrew gospe
+2219,katherine long
+2220,
+2221,daniel beekman
+2222,danny westneat
+2223,jennifer sullivan
+2224,
+2225,julie johnsson
+2226,brian j. cantwell
+2227,bethany jean clement
+2228,bethany jean clement
+2229,
+2230,sanjay bhatt
+2231,bob condotta
+2232,
+2233,kyung m. song
+2234,daniel beekman
+2235,david pierson
+2236,joseph o’sullivan
+2237,paul de barros
+2238,
+2239,seattle sketcher gabriel campanario
+2240,brier dudley
+2241,lisa cowan
+2242,
+2243,
+2244,john higgins
+2245,erik lacitis
+2246,
+2247,lynn jacobson
+2248,
+2249,geoff baker
+2250,jennifer sullivan
+2251,alexa vaughn
+2252,moira macdonald
+2253,moira macdonald
+2254,jon talton
+2255,matt pentz
+2256,nicole brodeur
+2257,larry stone
+2258,"lynn thompson, coral garnick"
+2259,bob condotta
+2260,seattle times staff
+2261,tan vinh
+2262,moira macdonald
+2263,
+2264,
+2265,bob condotta
+2266,gene balk / fyi guy
+2267,ángel gonzález
+2268,providence cicero
+2269,ryan divish
+2270,
+2271,lizette alvarez
+2272,evan bush
+2273,
+2274,tyrone beason
+2275,"mike lindblom, lewis kamb"
+2276,
+2277,
+2278,
+2279,
+2280,
+2281,
+2282,
+2283,
+2284,
+2285,
+2286,
+2287,
+2288,
+2289,
+2290,
+2291,
+2292,
+2293,
+2294,
+2295,
+2296,
+2297,
+2298,
+2299,
+2300,
+2301,
+2302,
+2303,
+2304,
+2305,
+2306,
+2307,
+2308,
+2309,
+2310,
+2311,
+2312,
+2313,
+2314,lynn jacobson
+2315,mary ann gwinn
+2316,alan berner
+2317,"andrew mcmasters, louise little"
+2318,matt pentz
+2319,leah todd
+2320,jonel aleccia
+2321,gene balk / fyi guy
+2322,paul dorpat
+2323,jon talton
+2324,bob condotta
+2325,valerie easton
+2326,danny westneat
+2327,
+2328,
+2329,nicole tsong
+2330,janet i. tu
+2331,rebekah denn
+2332,alan berner
+2333,bob condotta
+2334,
+2335,lynn jacobson
+2336,bethany jean clement
+2337,adam jude
+2338,katherine long
+2339,tricia romano
+2340,lynn jacobson
+2341,jennifer sullivan
+2342,
+2343,geoff mulvihill
+2344,
+2345,jonel aleccia
+2346,tyrone beason
+2347,brian j. cantwell
+2348,daniel beekman
+2349,bob condotta
+2350,providence cicero
+2351,paul barrett
+2352,seattle times staff
+2353,nikolaj lasbo
+2354,
+2355,ann carrns
+2356,"sheila v kumar, rachel la corte"
+2357,sanjay bhatt
+2358,jay greene
+2359,jon talton
+2360,tan vinh
+2361,bob condotta
+2362,lynn jacobson
+2363,kristin jackson
+2364,geoff baker
+2365,walker orenstein
+2366,michelle locke
+2367,steve miletich
+2368,christopher s. rugaber
+2369,"steve miletich, jennifer sullivan"
+2370,dominic gates
+2371,
+2372,steve ringman
+2373,janet i. tu
+2374,jeff albertson
+2375,katherine long
+2376,adam jude
+2377,bob condotta
+2378,evan bush
+2379,seattle times staff
+2380,kristin jackson
+2381,
+2382,lewis kamb
+2383,"daniel beekman, hal bernton"
+2384,hugh millen
+2385,kim severson
+2386,
+2387,seattle times staff
+2388,lynn jacobson
+2389,thuc nhi nguyen
+2390,gene balk / fyi guy
+2391,mike lindblom
+2392,"steve miletich, jennifer sullivan"
+2393,caitlin moran
+2394,tricia romano
+2395,erik lacitis
+2396,glenn whipp
+2397,jonel aleccia
+2398,mike lindblom
+2399,matt pentz
+2400,ellen banner
+2401,bob condotta
+2402,jonathan mahler
+2403,matt pentz
+2404,
+2405,jon talton
+2406,sanjay bhatt
+2407,mike lindblom
+2408,sanjay bhatt
+2409,
+2410,daniel beekman
+2411,
+2412,
+2413,john higgins
+2414,the seattle times editorial board
+2415,alan berner
+2416,seattle sketcher gabriel campanario
+2417,katie g. cotterill
+2418,jayson jenks
+2419,providence cicero
+2420,
+2421,matt pentz
+2422,hal bernton
+2423,lynn jacobson
+2424,jon talton
+2425,
+2426,nicole brodeur
+2427,sanjay bhatt
+2428,matt day
+2429,
+2430,nicole brodeur
+2431,brian j. cantwell
+2432,
+2433,kyung m. song
+2434,sandi doughton
+2435,jeff layton
+2436,ángel gonzález
+2437,the associated press
+2438,gene balk / fyi guy
+2439,
+2440,associated press staff
+2441,joseph o’sullivan
+2442,walker orenstein
+2443,susan kelleher
+2444,hal bernton
+2445,bud withers
+2446,katherine long
+2447,moira macdonald
+2448,
+2449,jim brunner
+2450,
+2451,
+2452,jonathan fahey
+2453,
+2454,brier dudley
+2455,bob condotta
+2456,maria l. la ganga
+2457,phuong le
+2458,jack broom
+2459,sandi doughton
+2460,mike lindblom
+2461,walker orenstein
+2462,
+2463,matt day
+2464,bob condotta
+2465,joseph o’sullivan
+2466,jason victor serinus
+2467,caitlin moran
+2468,misha berson
+2469,carrie dennett
+2470,donna gordon blankinship
+2471,paul de barros
+2472,
+2473,
+2474,steve miletich
+2475,percy allen
+2476,mike lindblom
+2477,donna gordon blankinship
+2478,daniel beekman
+2479,christopher elliott
+2480,nicole tsong
+2481,bob condotta
+2482,andy perdue
+2483,seattle times staff
+2484,aaron spencer
+2485,
+2486,scott hanson
+2487,
+2488,seattle sketcher gabriel campanario
+2489,providence cicero
+2490,
+2491,
+2492,tricia romano
+2493,christine clarridge
+2494,tricia romano
+2495,alison ladman
+2496,kelli kennedy
+2497,mike lindblom
+2498,mike lindblom
+2499,jennifer sullivan
+2500,geoff baker
+2501,janet i. tu
+2502,jack broom
+2503,katherine long
+2504,sandi doughton
+2505,dominic gates
+2506,bud withers
+2507,richard seven
+2508,kristin jackson
+2509,kelli kennedy
+2510,
+2511,jonel aleccia
+2512,bud withers
+2513,
+2514,hal bernton
+2515,ryan divish
+2516,brier dudley
+2517,mike lindblom
+2518,danny westneat
+2519,adam jude
+2520,ángel gonzález
+2521,bethany jean clement
+2522,dominic gates
+2523,
+2524,sanjay bhatt
+2525,walker orenstein
+2526,ron judd
+2527,bud withers
+2528,
+2529,melissa davis
+2530,jonel aleccia
+2531,nicole brodeur
+2532,
+2533,bethany jean clement
+2534,madeline mckenzie
+2535,moira macdonald
+2536,providence cicero
+2537,seattle times staff
+2538,jayson jenks
+2539,evan bush
+2540,jerry brewer
+2541,sara jean green
+2542,christine clarridge
+2543,jonel aleccia
+2544,gene balk / fyi guy
+2545,alan berner
+2546,kristin jackson
+2547,mike ramos
+2548,gillian g. gaar
+2549,misha berson
+2550,tom keogh
+2551,misha berson
+2552,courtney riffkin
+2553,bud withers
+2554,
+2555,
+2556,
+2557,bethany jean clement
+2558,jeff layton
+2559,matt day
+2560,
+2561,"mike carter, jim brunner, lewis kamb, joseph o’sullivan"
+2562,janet i. tu
+2563,alan berner
+2564,
+2565,moira macdonald
+2566,seattle times staff
+2567,tan vinh
+2568,
+2569,jack broom
+2570,"jennifer sullivan, christine clarridge"
+2571,mike lindblom
+2572,bud withers
+2573,madeline mckenzie
+2574,carrie dennett
+2575,paige cornwell
+2576,sanjay bhatt
+2577,jonel aleccia
+2578,danny westneat
+2579,
+2580,gene balk / fyi guy
+2581,paige cornwell
+2582,mike lindblom
+2583,seattle times staff
+2584,jane l. levere
+2585,seattle times staff
+2586,seattle times staff
+2587,heidi stevens
+2588,melissa clark
+2589,paige cornwell
+2590,
+2591,sanjay bhatt
+2592,bethany jean clement
+2593,jennifer sullivan
+2594,
+2595,bob condotta
+2596,seattle sketcher gabriel campanario
+2597,mary ann gwinn
+2598,mike ramos
+2599,jeff albertson
+2600,mike lindblom
+2601,thuc nhi nguyen
+2602,seattle times staff
+2603,tricia romano
+2604,leora y. bloom
+2605,sara jean green
+2606,alan bavley
+2607,paige cornwell
+2608,seattle times staff
+2609,jerry brewer
+2610,ángel gonzález
+2611,george erb
+2612,leah todd
+2613,bob condotta
+2614,allen thomas
+2615,ángel gonzález
+2616,christine clarridge
+2617,rebecca teagarden
+2618,christine clarridge
+2619,paige cornwell
+2620,jon talton
+2621,"lewis kamb, jim brunner"
+2622,john branch
+2623,christine clarridge
+2624,daniel beekman
+2625,paul dorpat
+2626,jayson jenks
+2627,danny westneat
+2628,binyamin appelbaum
+2629,som nath subedi
+2630,andy perdue
+2631,ryan divish
+2632,brian j. cantwell
+2633,erik lacitis
+2634,sandi doughton
+2635,seattle sketcher gabriel campanario
+2636,susan kelleher
+2637,evan bush
+2638,bud withers
+2639,sarah stuteville
+2640,nicole brodeur
+2641,jay greene
+2642,seattle times staff
+2643,jeff albertson
+2644,lynn jacobson
+2645,hal bernton
+2646,caitlin moran
+2647,jonel aleccia
+2648,evan bush
+2649,scott mayerowitz
+2650,jim allen
+2651,mike lindblom
+2652,brian j. cantwell
+2653,bob condotta
+2654,leah todd
+2655,providence cicero
+2656,bud withers
+2657,andrew gospe
+2658,
+2659,daniel beekman
+2660,seattle times sports staff
+2661,mike carter
+2662,paige cornwell
+2663,ángel gonzález
+2664,mary ann gwinn
+2665,brian j. cantwell
+2666,madeline mckenzie
+2667,ryan divish
+2668,seattle times sports staff
+2669,thuc nhi nguyen
+2670,lynn jacobson
+2671,mike baker
+2672,mary ann gwinn
+2673,ángel gonzález
+2674,janet i. tu
+2675,
+2676,
+2677,
+2678,matt day
+2679,bethany jean clement
+2680,bob condotta
+2681,coral garnick
+2682,claudia rowe
+2683,jonel aleccia
+2684,
+2685,bob condotta
+2686,mike lindblom
+2687,jayda evans
+2688,sharyn jackson
+2689,sara jean green
+2690,sandi doughton
+2691,katherine long
+2692,rebekah denn
+2693,matt pentz
+2694,tan vinh
+2695,nicole brodeur
+2696,
+2697,seattle times staff
+2698,jerry brewer
+2699,lynn thompson
+2700,ryan divish
+2701,lynn thompson
+2702,sara jean green
+2703,ángel gonzález
+2704,erik lacitis
+2705,ed guzman
+2706,tan vinh
+2707,seattle times staff
+2708,sandi doughton
+2709,andrew gospe
+2710,andrew matson
+2711,bob condotta
+2712,jack broom
+2713,mike lindblom
+2714,dominic gates
+2715,ryan divish
+2716,jennifer sullivan
+2717,steve miletich
+2718,christine clarridge
+2719,bob condotta
+2720,bethany jean clement
+2721,seattle times staff
+2722,larry stone
+2723,john lok
+2724,gene stout
+2725,
+2726,
+2727,brian j. cantwell
+2728,paul de barros
+2729,
+2730,patricia cohen
+2731,sandi doughton
+2732,mike lindblom
+2733,seattle times staff
+2734,jay greene
+2735,stephen battaglio
+2736,charles r. cross
+2737,moira macdonald
+2738,paige cornwell
+2739,shivani vora
+2740,seattle times staff
+2741,
+2742,
+2743,linda pourmassina
+2744,
+2745,rick steigmeyer
+2746,claudia rowe
+2747,
+2748,christine clarridge
+2749,scott hanson
+2750,
+2751,lisa cowan
+2752,"lewis kamb, jonel aleccia"
+2753,
+2754,lynn thompson
+2755,alan berner
+2756,ken lambert
+2757,ryan divish
+2758,kevin j. hamilton
+2759,
+2760,lindsey tanner
+2761,seattle times staff
+2762,jerry brewer
+2763,christine armario
+2764,matt pentz
+2765,jonel aleccia
+2766,
+2767,danny westneat
+2768,"hal bernton, adam ashton"
+2769,bud withers
+2770,valerie easton
+2771,seattle times staff
+2772,mike carter
+2773,
+2774,
+2775,nicole tsong
+2776,
+2777,lynn jacobson
+2778,"audrey delella benedict, joseph k. gaydos"
+2779,joshua tehee
+2780,
+2781,sandi doughton
+2782,sandi doughton
+2783,leah todd
+2784,
+2785,
+2786,
+2787,kristin jackson
+2788,andy perdue
+2789,bethany jean clement
+2790,nicole brodeur
+2791,alan wolfe
+2792,lewis kamb
+2793,percy allen
+2794,evan bush
+2795,seattle times staff
+2796,gene balk / fyi guy
+2797,gene stout
+2798,lynn jacobson
+2799,christine clarridge
+2800,
+2801,gene balk / fyi guy
+2802,evan bush
+2803,mike carter
+2804,katherine long
+2805,dominic gates
+2806,ángel gonzález
+2807,jonel aleccia
+2808,vancouver sun
+2809,andrew matson
+2810,providence cicero
+2811,bethany jean clement
+2812,tan vinh
+2813,seattle times staff
+2814,christine clarridge
+2815,moira macdonald
+2816,bob condotta
+2817,seattle times staff
+2818,john hartl
+2819,jack broom
+2820,sara jean green
+2821,percy allen
+2822,katherine long
+2823,"lisa cowan, paige cornwell"
+2824,jerry large
+2825,charles fleming
+2826,paige cornwell
+2827,"matt apuzzo, timothy williams"
+2828,hal bernton
+2829,tan vinh
+2830,andrew gospe
+2831,tan vinh
+2832,brian j. cantwell
+2833,katie g. cotterill
+2834,
+2835,tan vinh
+2836,seattle times staff
+2837,susan kelleher
+2838,
+2839,madeline mckenzie
+2840,sara jean green
+2841,
+2842,bethany jean clement
+2843,seattle times staff
+2844,sandi doughton
+2845,"lisa cowan, evan bush"
+2846,lynn thompson
+2847,leah todd
+2848,lisa stiffler
+2849,michael hill
+2850,rami grunbaum
+2851,"michael s. schmidt, matt apuzzo"
+2852,seattle times staff
+2853,
+2854,jad mouawad
+2855,seattle times staff
+2856,leah todd
+2857,paul de barros
+2858,martha bellisle
+2859,sarah gish
+2860,paige cornwell
+2861,carrie dennett
+2862,
+2863,jennifer sullivan
+2864,katherine long
+2865,catherine m. allchin
+2866,jack broom
+2867,ángel gonzález
+2868,nicole brodeur
+2869,moira macdonald
+2870,ángel gonzález
+2871,coral garnick
+2872,ryan divish
+2873,
+2874,tan vinh
+2875,ryan divish
+2876,moira macdonald
+2877,christine clarridge
+2878,jonel aleccia
+2879,moira macdonald
+2880,john koblin
+2881,mary ann gwinn
+2882,
+2883,larry stone
+2884,seattle times staff
+2885,"mike baker, daniel wagner"
+2886,katherine long
+2887,steven kurutz
+2888,gene balk / fyi guy
+2889,ryan divish
+2890,mike lindblom
+2891,thanh tan
+2892,moira macdonald
+2893,jerry brewer
+2894,danny westneat
+2895,brier dudley
+2896,
+2897,seattle times staff
+2898,larry stone
+2899,"mike baker, daniel wagner"
+2900,matt pentz
+2901,bob condotta
+2902,jim brunner
+2903,matt day
+2904,geoff baker
+2905,bethany jean clement
+2906,andy perdue
+2907,charles r. cross
+2908,nicole tsong
+2909,valerie easton
+2910,
+2911,jayda evans
+2912,"mike baker, daniel wagner"
+2913,erik lacitis
+2914,catherine m. allchin
+2915,nicole brodeur
+2916,sandi doughton
+2917,valerie easton
+2918,
+2919,janet i. tu
+2920,janet i. tu
+2921,julia moskin
+2922,seattle times staff
+2923,amanda m. knox
+2924,colin diltz
+2925,
+2926,paige cornwell
+2927,
+2928,ángel gonzález
+2929,bethany jean clement
+2930,providence cicero
+2931,lynn jacobson
+2932,daniel beekman
+2933,
+2934,melissa clark
+2935,claudia rowe
+2936,katie g. cotterill
+2937,ciscoe morris
+2938,jonel aleccia
+2939,lewis kamb
+2940,
+2941,leah todd
+2942,gene balk / fyi guy
+2943,christine clarridge
+2944,mikael wood
+2945,jeff albertson
+2946,walker orenstein
+2947,seattle times staff
+2948,tan vinh
+2949,sanjay bhatt
+2950,gillian g. gaar
+2951,
+2952,pamela yip
+2953,sandy ringer
+2954,bob condotta
+2955,andrew gospe
+2956,the editorial board
+2957,ciscoe morris
+2958,providence cicero
+2959,dominic gates
+2960,lewis kamb
+2961,moira macdonald
+2962,katie g. cotterill
+2963,
+2964,alan berner
+2965,daniel beekman
+2966,ryan divish
+2967,larry stone
+2968,
+2969,matt day
+2970,gina mcintyre
+2971,tan vinh
+2972,john hartl
+2973,brian j. cantwell
+2974,
+2975,seattle times staff
+2976,jack broom
+2977,mike lindblom
+2978,john rogers
+2979,seattle times staff
+2980,ángel gonzález
+2981,jonel aleccia
+2982,leah todd
+2983,danny westneat
+2984,jonel aleccia
+2985,sandi doughton
+2986,hal bernton
+2987,seattle times staff
+2988,erika schultz
+2989,seattle times staff
+2990,ángel gonzález
+2991,seattle times staff
+2992,steven dubois
+2993,claudia rowe
+2994,andrea rothman
+2995,nicole tsong
+2996,misha berson
+2997,
+2998,evan bush
+2999,misha berson
+3000,joseph o’sullivan
+3001,adam jude
+3002,seattle times staff
+3003,andrew gospe
+3004,paul de barros
+3005,seattle times staff
+3006,mike carter
+3007,paige cornwell
+3008,sara jean green
+3009,sanjay bhatt
+3010,sandi doughton
+3011,katherine long
+3012,seattle times staff
+3013,hal bernton
+3014,richard seven
+3015,moira macdonald
+3016,daniel beekman
+3017,
+3018,
+3019,david b. williams
+3020,mike stobbe
+3021,geoff baker
+3022,leora y. bloom
+3023,thanh tan
+3024,danny westneat
+3025,christopher elliott
+3026,moira macdonald
+3027,charles r. cross
+3028,the associated press
+3029,mary ann gwinn
+3030,jack broom
+3031,seattle times staff
+3032,mike baker
+3033,paul dorpat
+3034,alison bowen
+3035,paige cornwell
+3036,katherine long
+3037,rebecca teagarden
+3038,bob condotta
+3039,gene balk / fyi guy
+3040,larry stone
+3041,jonel aleccia
+3042,mike baker
+3043,jack broom
+3044,scott hanson
+3045,michael doyle
+3046,reid kanaley
+3047,seattle times staff
+3048,
+3049,jerry brewer
+3050,coral garnick
+3051,
+3052,
+3053,
+3054,misha berson
+3055,walker orenstein
+3056,seattle times staff
+3057,bob condotta
+3058,paul nevin
+3059,katherine long
+3060,brian x. chen
+3061,seattle sketcher gabriel campanario
+3062,
+3063,dennis overbye
+3064,danny westneat
+3065,
+3066,"john kekis, michael hill"
+3067,ryan divish
+3068,jack broom
+3069,adam jude
+3070,
+3071,ángel gonzález
+3072,ron judd
+3073,charles r. cross
+3074,nicole brodeur
+3075,ron judd
+3076,
+3077,
+3078,lynn jacobson
+3079,katie g. cotterill
+3080,moira macdonald
+3081,leah todd
+3082,nicole brodeur
+3083,justin bachman
+3084,joseph o’sullivan
+3085,seattle times staff
+3086,katherine long
+3087,larry stone
+3088,
+3089,
+3090,bethany jean clement
+3091,leah todd
+3092,seattle times staff
+3093,misha berson
+3094,seattle times staff
+3095,rich landers
+3096,misha berson
+3097,seattle times staff
+3098,leah todd
+3099,jennifer sullivan
+3100,
+3101,providence cicero
+3102,christine clarridge
+3103,charles r. cross
+3104,daniel beekman
+3105,seattle times staff
+3106,bethany jean clement
+3107,larry stone
+3108,erik lacitis
+3109,lisa cowan
+3110,leah todd
+3111,sara jean green
+3112,tan vinh
+3113,madeline mckenzie
+3114,the associated press
+3115,j.m. hirsch
+3116,steve miletich
+3117,jay greene
+3118,percy allen
+3119,jerry brewer
+3120,katrina barlow
+3121,jack broom
+3122,sara jean green
+3123,seattle times staff
+3124,percy allen
+3125,misha berson
+3126,evan bush
+3127,leah todd
+3128,jennifer sullivan
+3129,christine clarridge
+3130,gene johnson
+3131,"daniel beekman, steve miletich"
+3132,lynn thompson
+3133,daniel beekman
+3134,luke meredith
+3135,ellen emry heltzel
+3136,andrew gospe
+3137,
+3138,bob condotta
+3139,richard asa /
+3140,
+3141,joseph o’sullivan
+3142,brian j. cantwell
+3143,rick steves' europe
+3144,carrie dennett
+3145,kristin jackson
+3146,david tanis
+3147,bob condotta
+3148,gene balk / fyi guy
+3149,jonel aleccia
+3150,sara jean green
+3151,david bauder
+3152,daniel beekman
+3153,mike lindblom
+3154,andrea chang
+3155,jayson jenks
+3156,seattle sketcher gabriel campanario
+3157,nicole brodeur
+3158,seattle times staff
+3159,misha berson
+3160,moira macdonald
+3161,moira macdonald
+3162,"bob condotta, jayson jenks"
+3163,valerie easton
+3164,
+3165,mike lindblom
+3166,
+3167,joseph o’sullivan
+3168,
+3169,evan bush
+3170,kate brumback
+3171,mike lindblom
+3172,jack broom
+3173,seattle times staff
+3174,jay greene
+3175,seattle times staff
+3176,paul dorpat
+3177,carrie dennett
+3178,matt pentz
+3179,jon talton
+3180,jerry brewer
+3181,jay greene
+3182,lewis kamb
+3183,ryan divish
+3184,kristin jackson
+3185,"lewis kamb, jim brunner"
+3186,dominic gates
+3187,ryan divish
+3188,nicole tsong
+3189,andy perdue
+3190,rebekah denn
+3191,paige collins
+3192,rebecca teagarden
+3193,mike lindblom
+3194,
+3195,bob condotta
+3196,seattle sketcher gabriel campanario
+3197,paul de barros
+3198,
+3199,joseph o’sullivan
+3200,mike lindblom
+3201,paige cornwell
+3202,bethany jean clement
+3203,adam jude
+3204,tricia romano
+3205,mark yuasa
+3206,bob condotta
+3207,lindsey wasson
+3208,mary ann gwinn
+3209,nicole brodeur
+3210,
+3211,matt pentz
+3212,jennifer sullivan
+3213,
+3214,leah todd
+3215,charles r. cross
+3216,jim brunner
+3217,
+3218,christine clarridge
+3219,mike lindblom
+3220,erika schultz
+3221,bob condotta
+3222,gene balk / fyi guy
+3223,
+3224,jonel aleccia
+3225,paige cornwell
+3226,sarah stuteville
+3227,
+3228,mike lindblom
+3229,bethany jean clement
+3230,"daniel beekman, coral garnick"
+3231,christine clarridge
+3232,seattle times staff
+3233,moira macdonald
+3234,
+3235,moira macdonald
+3236,bethany jean clement
+3237,
+3238,mike lindblom
+3239,soren andersen
+3240,jeff layton
+3241,mary schlangenstein
+3242,colin diltz
+3243,
+3244,leah todd
+3245,jayson jenks
+3246,sandi doughton
+3247,
+3248,james rosen
+3249,"coral garnick, hal bernton"
+3250,joseph o’sullivan
+3251,evan bush
+3252,katie g. cotterill
+3253,seattle times staff
+3254,christine willmsen
+3255,alexia elejalde-ruiz
+3256,madeline mckenzie
+3257,tan vinh
+3258,andrew gospe
+3259,"jennifer sullivan, steve miletich"
+3260,dominic gates
+3261,gillian g. gaar
+3262,barry mitzman
+3263,tricia romano
+3264,tan vinh
+3265,
+3266,
+3267,bethany jean clement
+3268,ángel gonzález
+3269,danny westneat
+3270,geoff baker
+3271,mike lindblom
+3272,coral garnick
+3273,lewis kamb
+3274,ryan divish
+3275,seattle times staff
+3276,seattle times staff
+3277,brian j. cantwell
+3278,laurie hertzel
+3279,john reinan
+3280,seattle times staff
+3281,
+3282,matt day
+3283,michele kayaland alison ladman
+3284,jennifer sullivan
+3285,charlie zaillian
+3286,tricia romano
+3287,bob payne
+3288,nicole brodeur
+3289,
+3290,caitlin moran
+3291,
+3292,andy perdue
+3293,jonel aleccia
+3294,gene balk / fyi guy
+3295,anne d'innocenzio
+3296,moira macdonald
+3297,matthew brown
+3298,steve miletich
+3299,melissa healy
+3300,doug knoop
+3301,
+3302,
+3303,moira macdonald
+3304,seattle times staff
+3305,paul de barros
+3306,sean quinton
+3307,catherine m. allchin
+3308,rick steves
+3309,
+3310,gillian g. gaar
+3311,jonel aleccia
+3312,madeline mckenzie
+3313,erik lacitis
+3314,
+3315,alan berner
+3316,erik lacitis
+3317,nicholas k. geranios
+3318,misha berson
+3319,nicole brodeur
+3320,seattle times staff
+3321,evan bush
+3322,bob condotta
+3323,sean quinton
+3324,tricia romano
+3325,katherine long
+3326,larry stone
+3327,walker orenstein
+3328,jon talton
+3329,leah todd
+3330,
+3331,kristin jackson
+3332,paul dorpat
+3333,scott hanson
+3334,seattle times staff
+3335,tan vinh
+3336,daniel beekman
+3337,dominic gates
+3338,danny westneat
+3339,seattle sketcher gabriel campanario
+3340,
+3341,
+3342,rebecca teagarden
+3343,tricia romano
+3344,"geoff baker, lewis kamb"
+3345,paige cornwell
+3346,walker orenstein
+3347,rami grunbaum
+3348,nicole tsong
+3349,thuc nhi nguyen
+3350,lynn jacobson
+3351,rebecca teagarden
+3352,steve lackmeyer
+3353,brian j. cantwell
+3354,moira macdonald
+3355,katherine long
+3356,
+3357,
+3358,tan vinh
+3359,"peter baker, julie hirschfeld davis"
+3360,gillian g. gaar
+3361,paige cornwell
+3362,larry stone
+3363,jonel aleccia
+3364,ryan divish
+3365,
+3366,katie g. cotterill
+3367,rebecca teagarden
+3368,ciscoe morris
+3369,
+3370,jack broom
+3371,
+3372,tan vinh
+3373,rick steves' europe
+3374,providence cicero
+3375,geoff baker
+3376,mike lindblom
+3377,bill thorness
+3378,janet i. tu
+3379,jack broom
+3380,
+3381,steve miletich
+3382,"lewis kamb, geoff baker"
+3383,bethany jean clement
+3384,larry stone
+3385,coral garnick
+3386,madeline mckenzie
+3387,scott hanson
+3388,paul de barros
+3389,percy allen
+3390,rebekah denn
+3391,seattle times staff
+3392,
+3393,danny westneat
+3394,michael upchurch
+3395,"lewis kamb, geoff baker"
+3396,gene balk / fyi guy
+3397,jonel aleccia
+3398,sanjay bhatt
+3399,john higgins
+3400,ángel gonzález
+3401,nicole brodeur
+3402,bethany jean clement
+3403,bob condotta
+3404,seattle times staff
+3405,michael upchurch
+3406,
+3407,andrew gospe
+3408,daniel demay
+3409,nancy worssam
+3410,jonel aleccia
+3411,lynn thompson
+3412,paul de barros
+3413,
+3414,seattle times staff
+3415,sandi doughton
+3416,geoff baker
+3417,john lok
+3418,seattle sketcher gabriel campanario
+3419,lewis kamb
+3420,arlene satchell
+3421,karen ann cullotta
+3422,matt day
+3423,carrie dennett
+3424,
+3425,sara jean green
+3426,daniel neman
+3427,moira macdonald
+3428,
+3429,mary ann gwinn
+3430,kristin jackson
+3431,
+3432,daniel beekman
+3433,christine clarridge
+3434,seattle times staff
+3435,seattle times staff
+3436,
+3437,scott hanson
+3438,bettina hansen
+3439,
+3440,jon talton
+3441,carrie dennett
+3442,jonel aleccia
+3443,lynn thompson
+3444,percy allen
+3445,paul dorpat
+3446,damian mann
+3447,valerie easton
+3448,"vindu goel, quentin hardy"
+3449,sandi doughton
+3450,
+3451,sandi doughton
+3452,tyrone beason
+3453,
+3454,gene balk / fyi guy
+3455,bob condotta
+3456,hal bernton
+3457,brian towey
+3458,scott hanson
+3459,lewis kamb
+3460,jim brunner
+3461,nina shapiro
+3462,dominic gates
+3463,charlie zaillian
+3464,sy montgomery
+3465,"hal bernton, justin mayo"
+3466,
+3467,jim rossman
+3468,josh liebeskind
+3469,scott hanson
+3470,
+3471,andy perdue
+3472,leora y. bloom
+3473,coral garnick
+3474,deborah sontag
+3475,isabel kershner
+3476,danny westneat
+3477,
+3478,victoria kim
+3479,tony perry
+3480,
+3481,richard a. serranoand katherine skiba
+3482,hal bernton
+3483,katherine long
+3484,katherine long
+3485,paul de barros
+3486,
+3487,ryan divish
+3488,scott hanson
+3489,bob condotta
+3490,sean quinton
+3491,seattle sketcher gabriel campanario
+3492,ryan divish
+3493,
+3494,misha berson
+3495,melinda bargreen
+3496,michael d. shear and michael s. schmidt
+3497,tan vinh
+3498,matt pentz
+3499,nicole brodeur
+3500,jonathan martin
+3501,michael upchurch
+3502,
+3503,
+3504,
+3505,
+3506,seattle times staff
+3507,paige cornwell
+3508,seattle times staff
+3509,hayley phelan
+3510,mike carter
+3511,steve miletich
+3512,erik lacitis
+3513,seattle times staff
+3514,charles fleming
+3515,ángel gonzález
+3516,
+3517,matt pentz
+3518,jennifer c. kerr
+3519,
+3520,walker orenstein
+3521,ciscoe morris
+3522,
+3523,joseph o’sullivan
+3524,larry stone
+3525,providence cicero
+3526,gillian g. gaar
+3527,bob condotta
+3528,melissa davis
+3529,tan vinh
+3530,mark higgins
+3531,madeline mckenzie
+3532,seattle times staff
+3533,
+3534,colin diltz
+3535,mike lindblom
+3536,
+3537,matt pentz
+3538,jay greene
+3539,alan berner
+3540,larry stone
+3541,paige cornwell
+3542,katie g. cotterill
+3543,tan vinh
+3544,seattle times staff
+3545,tan vinh
+3546,jayson jenks
+3547,daniel neman
+3548,ryan divish
+3549,bill finkbeiner
+3550,seattle times staff
+3551,jeff albertson
+3552,seattle times staff
+3553,
+3554,paul de barros
+3555,tim booth
+3556,danny westneat
+3557,sandi doughton
+3558,miguel otárola
+3559,mike siegel
+3560,ryan divish
+3561,gene balk / fyi guy
+3562,seattle sketcher gabriel campanario
+3563,sarah el deeb
+3564,seattle times staff
+3565,
+3566,allie shah
+3567,paige cornwell
+3568,ellen emry heltzel
+3569,julie deardorff
+3570,andrew gospe
+3571,rob owen
+3572,rob owen
+3573,brian j. cantwell
+3574,seth kugel
+3575,jim harrington
+3576,paige collins
+3577,evan bush
+3578,mary ann gwinn
+3579,seattle times staff
+3580,scott hanson
+3581,christopher s. rugaber
+3582,mike lindblom
+3583,jonel aleccia
+3584,ryan divish
+3585,seattle times staff
+3586,daniel beekman
+3587,jay greene
+3588,ángel gonzález
+3589,
+3590,matt day
+3591,"sandy ringer, josh liebeskind, matt massey"
+3592,mike lindblom
+3593,nicole brodeur
+3594,brian x. chen
+3595,bob condotta
+3596,
+3597,joseph o’sullivan
+3598,mark scott
+3599,vivian yee
+3600,scott burns
+3601,lynn thompson
+3602,jack broom
+3603,pia hallenberg
+3604,danny westneat
+3605,"hal bernton, coral garnick"
+3606,seattle times staff
+3607,matt day
+3608,jonel aleccia
+3609,nicole tsong
+3610,paul dorpat
+3611,seattle times staff
+3612,jennifer sullivan
+3613,"paul de barros, charles r. cross"
+3614,brian j. cantwell
+3615,
+3616,paul de barros
+3617,nikolaj lasbo
+3618,bob condotta
+3619,jayson jenks
+3620,seattle sketcher gabriel campanario
+3621,dwight perry / sideline chatter
+3622,seattle times staff
+3623,jon talton
+3624,matt pentz
+3625,andy perdue
+3626,jack broom
+3627,valerie easton
+3628,owen r. smith
+3629,valerie easton
+3630,seattle times staff
+3631,seattle times staff
+3632,miguel otárola
+3633,
+3634,bob condotta
+3635,rebekah denn
+3636,brian j. cantwell
+3637,bethany jean clement
+3638,paul de barros
+3639,craig smith
+3640,bob condotta
+3641,
+3642,shannon affholter
+3643,tyrone beason
+3644,matt pentz
+3645,
+3646,seattle times staff
+3647,tricia romano
+3648,ángel gonzález
+3649,seattle times news services
+3650,janet i. tu
+3651,matt day
+3652,mike carter
+3653,katherine long
+3654,sandi doughton
+3655,lynn jacobson
+3656,paul de barros
+3657,
+3658,katie g. cotterill
+3659,john higgins
+3660,ciscoe morris
+3661,ken lambert
+3662,seattle times staff
+3663,gene balk / fyi guy
+3664,"kristin jackson, evan bush"
+3665,providence cicero
+3666,walker orenstein
+3667,bethany jean clement
+3668,charles r. cross
+3669,paul de barros
+3670,
+3671,sara jean green
+3672,jonel aleccia
+3673,mike lindblom
+3674,
+3675,geoff baker
+3676,colin diltz
+3677,janet i. tu
+3678,ken lambert
+3679,
+3680,bob condotta
+3681,christy karras
+3682,jon talton
+3683,tan vinh
+3684,
+3685,seattle times staff
+3686,danny westneat
+3687,bob condotta
+3688,madeline mckenzie
+3689,gretchen mckay
+3690,seattle times staff
+3691,erik lacitis
+3692,erik lacitis
+3693,claudia rowe
+3694,christine clarridge
+3695,nina shapiro
+3696,
+3697,"lydia mulvany, jeff wilson"
+3698,
+3699,leah todd
+3700,erik lacitis
+3701,sandi doughton
+3702,
+3703,"peter jamison, david zahniser"
+3704,john seewer
+3705,andrew gospe
+3706,moira macdonald
+3707,tricia romano
+3708,"steve peoples, brendan farrington"
+3709,seattle times staff
+3710,seattle times staff
+3711,josh barro
+3712,katherine long
+3713,phyllis fletcher
+3714,frederick l. noland
+3715,
+3716,"emery p. dalesio, emily masters"
+3717,mike lindblom
+3718,nicholas k. geranios
+3719,matt day
+3720,natalie obiko pearson
+3721,erik lacitis
+3722,scott hanson
+3723,seattle times staff
+3724,lindsey wasson
+3725,daniel beekman
+3726,sy bean
+3727,alan berner
+3728,
+3729,seattle times staff
+3730,scott hanson
+3731,mary ann gwinn
+3732,carrie dennett
+3733,moira macdonald
+3734,craig smith
+3735,seattle times staff
+3736,carol ostrom
+3737,mike lindblom
+3738,nicholas geranios
+3739,dominic gates
+3740,
+3741,jayson jenks
+3742,matt day
+3743,"josh liebeskind, mike baker"
+3744,sara jean green
+3745,paul dorpat
+3746,"eric schmitt, steven lee myers"
+3747,bob condotta
+3748,stephanie strom
+3749,jon talton
+3750,bob condotta
+3751,misha berson
+3752,seattle sketcher gabriel campanario
+3753,kristin jackson
+3754,valerie easton
+3755,jayda evans
+3756,andy perdue
+3757,nicole tsong
+3758,christy karras
+3759,
+3760,bethany jean clement
+3761,ron judd
+3762,alan berner
+3763,greg gilbert
+3764,
+3765,rebecca teagarden
+3766,michael upchurch
+3767,mike lindblom
+3768,paige cornwell
+3769,craig smith
+3770,ryan divish
+3771,beena raghavendran
+3772,sean quinton
+3773,
+3774,
+3775,
+3776,paige cornwell
+3777,craig smith
+3778,sarah stuteville
+3779,moira macdonald
+3780,christine clarridge
+3781,john higgins
+3782,walker orenstein
+3783,tyrone beason
+3784,lynn jacobson
+3785,
+3786,
+3787,markian hawryluk
+3788,jayda evans
+3789,chuck raasch
+3790,jack broom
+3791,katherine long
+3792,dominic gates
+3793,beena raghavendran
+3794,christine clarridge
+3795,jonathan martin
+3796,the spokesman-review
+3797,misha berson
+3798,moira macdonald
+3799,
+3800,seattle times staff
+3801,
+3802,leah todd
+3803,tan vinh
+3804,michael upchurch
+3805,katie g. cotterill
+3806,bethany jean clement
+3807,the associated press
+3808,colin diltz
+3809,miguel otárola
+3810,"josh liebeskind, mike baker"
+3811,gene balk / fyi guy
+3812,larry stone
+3813,jill lawless
+3814,jennifer sullivan
+3815,bob condotta
+3816,mark yuasa
+3817,ryan divish
+3818,
+3819,christy karras
+3820,bob condotta
+3821,jeff albertson
+3822,bob condotta
+3823,
+3824,alice kaderlan
+3825,madeline mckenzie
+3826,seattle times staff
+3827,
+3828,micah dorfner
+3829,andrew gospe
+3830,bill st. john /
+3831,ryan divish
+3832,daniel beekman
+3833,coral garnick
+3834,matt day
+3835,ángel gonzález
+3836,danny westneat
+3837,
+3838,
+3839,paige cornwell
+3840,jennifer sullivan
+3841,
+3842,jonel aleccia
+3843,
+3844,
+3845,christine clarridge
+3846,jack broom
+3847,valerie easton
+3848,christine clarridge
+3849,
+3850,sean quinton
+3851,"jennifer sullivan, evan bush"
+3852,brian j. cantwell
+3853,claudia rowe
+3854,ken gordon
+3855,the seattle times editorial board
+3856,
+3857,nicole brodeur
+3858,mike lindblom
+3859,
+3860,daniel beekman
+3861,leah todd
+3862,nina shapiro
+3863,seattle times staff
+3864,"patrick may, troy wolverton, jeremy c. owens"
+3865,jayson jenks
+3866,"jean darsie, bill kirlin-hackett"
+3867,moira macdonald
+3868,bettina hansen
+3869,anya sostek
+3870,katherine long
+3871,shivani vora
+3872,daniel beekman
+3873,katherine long
+3874,jayson jenks
+3875,seattle times staff
+3876,misha berson
+3877,seattle times staff
+3878,seattle times staff
+3879,melinda bargreen
+3880,mary ann gwinn
+3881,hal bernton
+3882,anya sostek
+3883,jayson jenks
+3884,katherine long
+3885,katherine long
+3886,daniel beekman
+3887,sandi doughton
+3888,mike lindblom
+3889,lewis kamb
+3890,gene balk / fyi guy
+3891,hal bernton
+3892,jack broom
+3893,matt day
+3894,
+3895,tan vinh
+3896,misha berson
+3897,seattle times staff
+3898,paul dorpat
+3899,valerie easton
+3900,andy perdue
+3901,owen r. smith
+3902,miguel otárola
+3903,miguel otárola
+3904,anick jesdanun
+3905,rebekah denn
+3906,rebecca teagarden
+3907,
+3908,rebecca teagarden
+3909,seattle sketcher gabriel campanario
+3910,walker orenstein
+3911,fred moody
+3912,dominic gates
+3913,misha berson
+3914,christine clarridge
+3915,charlie zaillian
+3916,paul de barros
+3917,bob condotta
+3918,katie g. cotterill
+3919,kimberly pierceall
+3920,
+3921,seattle times staff
+3922,bethany jean clement
+3923,percy allen
+3924,seattle times staff
+3925,
+3926,nicole tsong
+3927,jennifer sullivan
+3928,nicole brodeur
+3929,mike lindblom
+3930,mike carter
+3931,sanjay bhatt
+3932,sara jean green
+3933,lindsay wise
+3934,larry stone
+3935,
+3936,john hartl
+3937,sara jean green
+3938,
+3939,providence cicero
+3940,tan vinh
+3941,caitlin moran
+3942,
+3943,todd shields
+3944,jennifer sullivan
+3945,josh liebeskind
+3946,brian j. cantwell
+3947,tan vinh
+3948,"ryan divish, jayson jenks"
+3949,percy allen
+3950,seattle times staff
+3951,christine clarridge
+3952,hugo martin
+3953,seattle times staff
+3954,danny westneat
+3955,"dan evans, mike lowry"
+3956,
+3957,jennifer sullivan
+3958,sanjay bhatt
+3959,soren andersen
+3960,malcolm ritter
+3961,"bobbe j. bridge, vanessa torres hernandez"
+3962,julia horowitz
+3963,moira macdonald
+3964,sean quinton
+3965,tre’vell anderson
+3966,geoff baker
+3967,alison ladman
+3968,ryan divish
+3969,jennifer sullivan
+3970,scott mayerowitz
+3971,claudia rowe
+3972,the associated press
+3973,molly hennessy-fiske
+3974,brier dudley
+3975,mike lindblom
+3976,walker orenstein
+3977,lewis kamb
+3978,matt pentz
+3979,julia horowitz
+3980,jason axelrod
+3981,bob condotta
+3982,seattle times staff
+3983,steve miletich
+3984,rick bentley
+3985,elizabeth karmel
+3986,the seattle times editorial board
+3987,scott mayerowitz
+3988,rob owen
+3989,
+3990,"mike carter, eric lactis"
+3991,geoff baker
+3992,ken moritsugu
+3993,seattle times staff
+3994,marley jay
+3995,tim fought
+3996,claudia rowe
+3997,lynn thompson
+3998,
+3999,erik lacitis
+4000,
+4001,the seattle times editorial board
+4002,matt o'brien
+4003,ken lambert
+4004,
+4005,tre’vell anderson
+4006,lauran neergaard
+4007,jon talton
+4008,owen r. smith
+4009,
+4010,the associated press
+4011,
+4012,doug knoop
+4013,seattle times staff
+4014,coral garnick
+4015,larry stone
+4016,ed murray
+4017,valerie easton
+4018,carrie dennett
+4019,joseph o’sullivan
+4020,jack broom
+4021,george erb
+4022,
+4023,will drabold
+4024,bob condotta
+4025,rukmini callimachi
+4026,"emily masters, bruce smith"
+4027,greg gilbert
+4028,valerie easton
+4029,andy perdue
+4030,michael upchurch
+4031,matt pentz
+4032,coral garnick
+4033,nicole tsong
+4034,
+4035,sami edge
+4036,seattle sketcher gabriel campanario
+4037,tricia romano
+4038,"joan lowy, justin pritchard"
+4039,jayson jenks
+4040,gene balk / fyi guy
+4041,mike lindblom
+4042,the associated press
+4043,the associated press
+4044,julie pace
+4045,becky bohrer
+4046,ciscoe morris
+4047,sean axmaker
+4048,the seattle times editorial board
+4049,"joan lowy, justin pritchard"
+4050,kristin jackson
+4051,tricia romano
+4052,
+4053,nicole brodeur
+4054,christine clarridge
+4055,john hartl
+4056,seattle times staff
+4057,seattle times staff
+4058,gene balk / fyi guy
+4059,danielle weatherby
+4060,anne m. peterson
+4061,caitlin moran
+4062,"evan bush, bob young"
+4063,"evan bush, bob young"
+4064,seattle times staff
+4065,olympia snowe
+4066,erik lacitis
+4067,jennifer sullivan
+4068,claudia rowe
+4069,ron judd
+4070,the associated press
+4071,"david g. savage, timothy m. phelps"
+4072,ángel gonzález
+4073,mike lindblom
+4074,paige cornwell
+4075,
+4076,
+4077,owen r. smith
+4078,the associated press
+4079,jack broom
+4080,moira macdonald
+4081,"dan levin, crystal tse"
+4082,bethany jean clement
+4083,matt pentz
+4084,soren andersen
+4085,leah todd
+4086,tricia romano
+4087,providence cicero
+4088,beena raghavendran
+4089,adam jude
+4090,colin diltz
+4091,seattle times staff
+4092,gene balk / fyi guy
+4093,the seattle times editorial board
+4094,katherine long
+4095,mike carter
+4096,coral garnick
+4097,mark sherman
+4098,jack broom
+4099,letters editor
+4100,tan vinh
+4101,alan berner
+4102,tan vinh
+4103,katie g. cotterill
+4104,sanjay bhatt
+4105,julie johnsson
+4106,seth borenstein
+4107,jim fitzgerald
+4108,scott shane
+4109,the associated press
+4110,madeline mckenzie
+4111,gillian g. gaar
+4112,jonel aleccia
+4113,andrew gospe
+4114,tyrone beason
+4115,denise lavoie
+4116,rebekah denn
+4117,sandi doughton
+4118,bob condotta
+4119,danielle weatherby
+4120,david koenig
+4121,claudia rowe
+4122,the associated press
+4123,paige cornwell
+4124,ken dilanian
+4125,danny westneat
+4126,the seattle times editorial board
+4127,sandi doughton
+4128,daniel beekman
+4129,anne m. peterson
+4130,mike lindblom
+4131,seattle times staff
+4132,sam sifton
+4133,adam jude
+4134,seattle times staff
+4135,the associated press
+4136,christopher elliott
+4137,mike siegel
+4138,rick steves' europe
+4139,the seattle times editorial board
+4140,rami grunbaum
+4141,paul ramsdell
+4142,adam jude
+4143,spencer soper
+4144,gretchen reynolds
+4145,compiled by times staff
+4146,nicholas k. geranios
+4147,alexia elejalde-ruiz
+4148,gina kolata
+4149,maria cheng
+4150,mike lindblom
+4151,bob young
+4152,sara jean green
+4153,"evan bush, paige cornwell"
+4154,hal bernton
+4155,sy bean
+4156,colleen schrappen
+4157,seattle times staff
+4158,
+4159,seth kugel
+4160,michael upchurch
+4161,stephanie dunnewind
+4162,philip marcelo
+4163,heather king
+4164,ángel gonzález
+4165,sy bean
+4166,seattle times staff
+4167,brian j. cantwell
+4168,the associated press
+4169,seattle times staff
+4170,tom keogh
+4171,"mark titus, tom douglas"
+4172,the associated press
+4173,tricia romano
+4174,"michael winerip, michael schwirtz, vivian yee"
+4175,"evan bush, paige cornwell"
+4176,"katherine long, coral garnick"
+4177,nedra pickler
+4178,jonel aleccia
+4179,the associated press
+4180,
+4181,gene balk / fyi guy
+4182,"ed guzman, sean quinton"
+4183,seattle times staff
+4184,tricia romano
+4185,scott hanson
+4186,
+4187,jayson jenks
+4188,misha berson
+4189,evan bush
+4190,nicole brodeur
+4191,hal bernton
+4192,seattle times staff
+4193,george erb
+4194,tom keogh
+4195,adam jude
+4196,brian j. cantwell
+4197,larry stone
+4198,richard a. oppel jr.
+4199,gosia wozniacka
+4200,the news tribune
+4201,daniel beekman
+4202,gina cole
+4203,ryan divish
+4204,
+4205,sean quinton
+4206,madeline mckenzie
+4207,nicholas k. geranios
+4208,lynn thompson
+4209,yuri kageyama
+4210,denise lavoie
+4211,doug knoop
+4212,
+4213,katie rogers
+4214,thomas friedman
+4215,bethany jean clement
+4216,elizabeth a. harris
+4217,christine clarridge
+4218,caitlin moran
+4219,erik lacitis
+4220,danny westneat
+4221,lewis kamb
+4222,seattle times staff
+4223,marcia dunn
+4224,jennifer sullivan
+4225,"bill clapp, mauricio vivero"
+4226,"julie johnsson, mary schlangenstein"
+4227,the associated press
+4228,evan bush
+4229,andie waterman
+4230,
+4231,jennifer sullivan
+4232,ken ritter
+4233,lynn thompson
+4234,marcia dunn
+4235,rick steves' europe
+4236,sara jean green
+4237,sean quinton
+4238,"jeffrey duchin, paul s. pottinger, edgar marcuse"
+4239,"paige cornwell, lewis kamb"
+4240,anne flaherty
+4241,
+4242,sanjay bhatt
+4243,susan kelleher
+4244,ryan divish
+4245,
+4246,michael upchurch
+4247,misha berson
+4248,katherine long
+4249,daniel beekman
+4250,david bauder
+4251,"julie pace, matthew lee, george jahn"
+4252,marcia dunn
+4253,christine clarridge
+4254,
+4255,lindsey wasson
+4256,larry stone
+4257,sanjay bhatt
+4258,
+4259,submitted by seattle times readers
+4260,"ron judd, walker orenstein, miguel otárola"
+4261,brian j. cantwell
+4262,seattle times staff
+4263,lolita c. baldor
+4264,leslie barker
+4265,seattle times staff
+4266,the associated press
+4267,carrie wells
+4268,marcia dunn
+4269,
+4270,melissa clark
+4271,sarah lyall
+4272,charles r. cross
+4273,jeff albertson
+4274,"seattle times staff, bloomberg news"
+4275,the associated press
+4276,moira macdonald
+4277,alicia a. caldwell
+4278,emily steel
+4279,"john-thor dahlburg, pan pylas"
+4280,
+4281,evan bush
+4282,hal bernton
+4283,jonathan martin
+4284,the associated press
+4285,stuart leavenworth
+4286,adam jude
+4287,carrie dennett
+4288,marcia dunn
+4289,seattle times staff
+4290,
+4291,sanjay bhatt
+4292,
+4293,christopher reynolds
+4294,jon talton
+4295,sandi doughton
+4296,mary ann gwinn
+4297,seattle times staff
+4298,becky bohrer
+4299,
+4300,ryan divish
+4301,
+4302,joseph o’sullivan
+4303,daniel beekman
+4304,
+4305,mike lindblom
+4306,matt pentz
+4307,seattle times staff
+4308,the associated press
+4309,pam london
+4310,doreen carvajal
+4311,mark yuasa
+4312,melissa davis
+4313,matt pentz
+4314,misha berson
+4315,ryan divish
+4316,
+4317,danny westneat
+4318,paul dorpat
+4319,katherine long
+4320,brian j. cantwell
+4321,jayda evans
+4322,larry stone
+4323,sanjay bhatt
+4324,samantha edge
+4325,valerie easton
+4326,"jennifer sullivan, walker orenstein"
+4327,patrick marshall
+4328,andie waterman
+4329,nicole tsong
+4330,andy perdue
+4331,
+4332,rebecca teagarden
+4333,andy perdue
+4334,rebecca teagarden
+4335,ángel gonzález
+4336,paul de barros
+4337,ricardo alonso-zaldivar
+4338,tamara lush
+4339,evan bush
+4340,ciscoe morris
+4341,nicole brodeur
+4342,misha berson
+4343,paul de barros
+4344,leanne italie
+4345,daniel beekman
+4346,jennifer sullivan
+4347,jonathan lemire
+4348,"jonathan l. martin, maggie haberman"
+4349,jennifer sullivan
+4350,john higgins
+4351,matthew perrone
+4352,ryan divish
+4353,"sarah el deeb, lee keath"
+4354,miguel otárola
+4355,james neff
+4356,michael hewitt
+4357,moira macdonald
+4358,katie g. cotterill
+4359,seattle times staff
+4360,paul de barros
+4361,sean quinton
+4362,jack broom
+4363,madeline mckenzie
+4364,the associated press
+4365,providence cicero
+4366,carlos valdez
+4367,rachel lerman
+4368,tan vinh
+4369,kristin jackson
+4370,benjamin woodard
+4371,ann friedman
+4372,soren andersen
+4373,seattle times staff
+4374,caitlin moran
+4375,daniel beekman
+4376,colin diltz
+4377,jonel aleccia
+4378,walker orenstein
+4379,the seattle times editorial board
+4380,sanjay bhatt
+4381,
+4382,paige cornwell
+4383,jeffrey collins
+4384,jack broom
+4385,brian j. cantwell
+4386,seattle times staff
+4387,the associated press
+4388,jennifer sullivan
+4389,the associated press
+4390,matt day
+4391,maryclaire dale
+4392,
+4393,sue manning
+4394,moira macdonald
+4395,andrew gospe
+4396,"joseph lehman, david keenan"
+4397,jayson jenks
+4398,bethany jean clement
+4399,tan vinh
+4400,rachel wharton
+4401,jim brunner
+4402,paige cornwell
+4403,melissa healy
+4404,daniel beekman
+4405,ryan divish
+4406,sandi doughton
+4407,christine clarridge
+4408,daniel beekman
+4409,the seattle times editorial board
+4410,steven dubois
+4411,the associated press
+4412,
+4413,rick steves' europe
+4414,the associated press
+4415,michael catalini
+4416,brian j. cantwell
+4417,lee svitak dean
+4418,daniel beekman
+4419,larry stone
+4420,danny westneat
+4421,beena raghavendran
+4422,katherine long
+4423,andie waterman
+4424,mary ann gwinn
+4425,"mike carter, lewis kamb"
+4426,sharon nelson
+4427,maryclaire dale
+4428,candice choi
+4429,jack broom
+4430,sami edge
+4431,the associated press
+4432,jeffrey collins
+4433,seattle times staff
+4434,"tom murphy, rick callahan"
+4435,sanjay bhatt
+4436,the seattle times editorial board
+4437,walker orenstein
+4438,
+4439,seattle times staff
+4440,timothy egan
+4441,geoff baker
+4442,kristen wyatt
+4443,melissa clark
+4444,sean quinton
+4445,the seattle times editorial board
+4446,mayo clinic news network
+4447,"matt lee, ted lee"
+4448,stephen wilson
+4449,the associated press
+4450,the associated press
+4451,doug knoop
+4452,ángel gonzález
+4453,miguel otárola
+4454,matt pentz
+4455,"conor dougherty, hiroko tabuchi"
+4456,andrew gospe
+4457,sami edge
+4458,seattle times staff
+4459,beena raghavendran
+4460,daniel beekman
+4461,
+4462,ryan divish
+4463,katie g. cotterill
+4464,jim brunner
+4465,tricia romano
+4466,brandon bailey
+4467,jon talton
+4468,nicole brodeur
+4469,amy thomson
+4470,seattle times staff
+4471,brandon bailey
+4472,larry stone
+4473,seattle times staff
+4474,walker orenstein
+4475,susan kelleher
+4476,bob condotta
+4477,the seattle times editorial board
+4478,felicia fonseca
+4479,rick steves' europe
+4480,brian j. cantwell
+4481,tan vinh
+4482,jerry large
+4483,tan vinh
+4484,sandi doughton
+4485,ryan divish
+4486,bethany jean clement
+4487,sara jean green
+4488,moira macdonald
+4489,susan kelleher
+4490,ángel gonzález
+4491,bob condotta
+4492,sami edge
+4493,bob condotta
+4494,daniel beekman
+4495,brian j. cantwell
+4496,linda shaw
+4497,jim brunner
+4498,colin diltz
+4499,lisa cornwell
+4500,ángel gonzález
+4501,seattle times staff
+4502,patrick marshall
+4503,"hal bernton, evan bush"
+4504,jennifer sullivan
+4505,geoff baker
+4506,katie g. cotterill
+4507,caitlin moran
+4508,seattle times staff
+4509,andie waterman
+4510,mike stobbe / the associated press
+4511,bob condotta
+4512,daniel neman
+4513,martha rose shulman
+4514,dean fosdick
+4515,walker orenstein
+4516,andrew gospe
+4517,madeline mckenzie
+4518,bethany jean clement
+4519,walker orenstein
+4520,hal bernton
+4521,danny westneat
+4522,walker orenstein
+4523,"jim brunner, hal bernton"
+4524,matt day
+4525,jonathan martin
+4526,jonel aleccia
+4527,hal bernton
+4528,gene balk / fyi guy
+4529,mike siegel
+4530,brian j. cantwell
+4531,
+4532,farai mutsaka
+4533,bob condotta
+4534,carolyn kellogg
+4535,gary faigin
+4536,alan levin
+4537,brian j. cantwell
+4538,maryclaire dale
+4539,mark yuasa
+4540,melissa clark
+4541,the associated press
+4542,the associated press
+4543,nick eaton
+4544,jason axelrod
+4545,moira macdonald
+4546,barry wilner
+4547,sanjay bhatt
+4548,evan bush
+4549,sanjay bhatt
+4550,tom keogh
+4551,jessica lee
+4552,john okamoto
+4553,"jonathan mattise, dan sewell"
+4554,the associated press
+4555,walker orenstein
+4556,ryan divish
+4557,ethan hauser
+4558,tom james
+4559,lynn jacobson
+4560,seattle times staff
+4561,seattle times staff
+4562,mary ann gwinn
+4563,tricia romano
+4564,evan bush
+4565,steve miletich
+4566,eddie pells
+4567,the associated press
+4568,"seth borenstein, frank bajak"
+4569,carrie dennett
+4570,seattle times staff
+4571,jack broom
+4572,david crary
+4573,ian urbina
+4574,"christine clarridge, jennifer sullivan"
+4575,craig hill
+4576,matt pentz
+4577,jonel aleccia
+4578,jonathan landrum jr.
+4579,the seattle times editorial board
+4580,jack broom
+4581,julie pace
+4582,"tom krisher, jonathan fahey"
+4583,nina shapiro
+4584,walker orenstein
+4585,jayson jenks
+4586,jayson jenks
+4587,daniel beekman
+4588,mike ramos
+4589,"faith li pettis, david wertheimer"
+4590,jayson jenks
+4591,john kekis
+4592,john kekis
+4593,nicole brodeur
+4594,bob condotta
+4595,bob condotta
+4596,tyrone beason
+4597,josh noel
+4598,soren andersen
+4599,valerie easton
+4600,danny westneat
+4601,nelson d. schwartz
+4602,hal bernton
+4603,joseph o’sullivan
+4604,matt day
+4605,christine clarridge
+4606,hal bernton
+4607,seattle times staff
+4608,andy perdue
+4609,
+4610,bob condotta
+4611,kristin jackson
+4612,nelson d. schwartz
+4613,nicole tsong
+4614,danny westneat
+4615,craig hill
+4616,coral garnick
+4617,paul dorpat
+4618,josh noel
+4619,the associated press
+4620,matt pentz
+4621,sara jean green
+4622,ryan divish
+4623,nicole brodeur
+4624,
+4625,matt volz
+4626,jack broom
+4627,erik lacitis
+4628,valerie easton
+4629,ron judd
+4630,larry stone
+4631,jennifer sullivan
+4632,leanne italie
+4633,bob condotta
+4634,maria cheng
+4635,catherine m. allchin
+4636,marcia dunn
+4637,jill colvin
+4638,lynn jacobson
+4639,brady mccombs
+4640,"melinda deslatte, michael kunzelman"
+4641,lauran neergaard
+4642,adam jude
+4643,tricia romano
+4644,sean axmaker
+4645,bob condotta
+4646,mike lindblom
+4647,christy karras
+4648,moira macdonald
+4649,bethany jean clement
+4650,matthew townsend
+4651,dominic gates
+4652,jonel aleccia
+4653,jennifer sullivan
+4654,seattle times staff
+4655,larry stone
+4656,
+4657,seattle times staff
+4658,john carucci
+4659,ciscoe morris
+4660,providence cicero
+4661,providence cicero
+4662,charlie zaillian
+4663,sara jean green
+4664,evan bush
+4665,moira macdonald
+4666,paul de barros
+4667,miguel otárola
+4668,andie waterman
+4669,marcia dunn
+4670,
+4671,sanjay bhatt
+4672,jon talton
+4673,christy karras
+4674,kristin jackson
+4675,christine clarridge
+4676,colin diltz
+4677,"jeff horwitz, stephen braun"
+4678,claire cain miller
+4679,steve miletich
+4680,paige cornwell
+4681,jennifer sullivan
+4682,evan bush
+4683,seattle times staff
+4684,the seattle times editorial board
+4685,andie waterman
+4686,jessica reynolds /
+4687,tan vinh
+4688,matt volz
+4689,"lisa leff, david klepper"
+4690,david montgomery
+4691,madeline mckenzie
+4692,andrew matson
+4693,lauran neergaard
+4694,bob condotta
+4695,evan bush
+4696,the associated press
+4697,geoff baker
+4698,the associated press
+4699,sami edge
+4700,lynn thompson
+4701,bruce weber
+4702,daniel beekman
+4703,john higgins
+4704,erik lacitis
+4705,sara jean green
+4706,"erik lacitis, coral garnick"
+4707,bob condotta
+4708,ryan divish
+4709,
+4710,
+4711,tan vinh
+4712,misha berson
+4713,"jodi kantor, david streitfeld"
+4714,
+4715,lynn jacobson
+4716,larry stone
+4717,coral garnick
+4718,jim brunner
+4719,jay greene
+4720,sandi doughton
+4721,ángel gonzález
+4722,bob condotta
+4723,
+4724,
+4725,
+4726,"evan bush, jessica lee, joseph o’sullivan"
+4727,jack broom
+4728,matt pentz
+4729,andy perdue
+4730,amy beth hanson
+4731,rebecca teagarden
+4732,tom keogh
+4733,
+4734,bob condotta
+4735,nicole brodeur
+4736,misha berson
+4737,darlene superville
+4738,jennifer sullivan
+4739,mark thiessen
+4740,kristin jackson
+4741,jon talton
+4742,janet i. tu
+4743,stacy cowley
+4744,jonel aleccia
+4745,
+4746,caitlin moran
+4747,"jessica lee, kristin jackson"
+4748,janet i. tu
+4749,sara jean green
+4750,erik lacitis
+4751,nina shapiro
+4752,ciscoe morris
+4753,matt day
+4754,providence cicero
+4755,matt o'brien
+4756,the seattle times editorial board
+4757,paul dorpat
+4758,colin diltz
+4759,lucas l. johnson ii
+4760,kristin jackson
+4761,katie g. cotterill
+4762,christy karras
+4763,christopher bodeen
+4764,the associated press
+4765,matthew perrone
+4766,jonel aleccia
+4767,the seattle times editorial board
+4768,adam jude
+4769,michael upchurch
+4770,"joseph o’sullivan, jim brunner"
+4771,dominic gates
+4772,susan kelleher
+4773,bob condotta
+4774,david tanis
+4775,david koenig
+4776,bob condotta
+4777,paige cornwell
+4778,walker orenstein
+4779,seattle times staff
+4780,
+4781,valerie easton
+4782,"kathleen foody, marilynn marchione"
+4783,
+4784,madeline mckenzie
+4785,michael beschloss
+4786,matt pentz
+4787,erik lacitis
+4788,tan vinh
+4789,ben nuckols
+4790,eric pettigrew
+4791,bob condotta
+4792,daniel beekman
+4793,matt pentz
+4794,matt pentz
+4795,brian thomas gallagher
+4796,adam jude
+4797,mike lindblom
+4798,matt pentz
+4799,danny westneat
+4800,the associated press
+4801,coral garnick
+4802,
+4803,martha waggoner
+4804,mike carter
+4805,ken dilanian
+4806,sanjay bhatt
+4807,donald g. mcneil jr.
+4808,joseph o’sullivan
+4809,michelle mcniel
+4810,ashley chan
+4811,andie waterman
+4812,david porter
+4813,
+4814,bethany jean clement
+4815,tricia romano
+4816,nicole tsong
+4817,bob condotta
+4818,seth borenstein
+4819,"will weissert, julie bykowicz"
+4820,matt pentz
+4821,danica kirka
+4822,bob condotta
+4823,steve miletich
+4824,larry stone
+4825,rob owen
+4826,the associated press
+4827,bob payne
+4828,
+4829,dennis waszak jr.
+4830,daniel beekman
+4831,anick jesdanun
+4832,adam jude
+4833,alan berner
+4834,"nina shapiro, jim brunner"
+4835,jonel aleccia
+4836,jennifer sullivan
+4837,letters editor
+4838,leon stafford
+4839,david eggert
+4840,jennifer medina
+4841,"susan montoya bryan, ellen knickmeyer"
+4842,brandon bailey
+4843,seattle times staff
+4844,john higgins
+4845,the seattle times editorial board
+4846,adam jude
+4847,seattle times staff
+4848,jayson jenks
+4849,kristin jackson
+4850,mary ann gwinn
+4851,bob condotta
+4852,jill colvin
+4853,
+4854,
+4855,elliot spagat
+4856,moira macdonald
+4857,seattle times staff
+4858,
+4859,jonel aleccia
+4860,matthew brown
+4861,bob condotta
+4862,jerry large
+4863,andie waterman
+4864,ryan divish
+4865,nina shapiro
+4866,mark scott
+4867,sami edge
+4868,"sandi doughton, beena raghavendran"
+4869,jill colvin
+4870,beena raghavendran
+4871,bob condotta
+4872,nick licata
+4873,ryan divish
+4874,the associated press
+4875,adam jude
+4876,paul elias
+4877,coral garnick
+4878,carrie dennett
+4879,david b. caruso
+4880,moira macdonald
+4881,stephen ohlemacher
+4882,jill colvin
+4883,"jim salter, jim suhr"
+4884,barry wilner
+4885,
+4886,seattle times staff
+4887,lisa stiffler
+4888,the seattle times editorial board
+4889,owen r. smith
+4890,nicole brodeur
+4891,bob young
+4892,ángel gonzález
+4893,seattle times staff
+4894,"erik lacitis, dominic gates"
+4895,bob condotta
+4896,ryan divish
+4897,
+4898,
+4899,jim brunner
+4900,andy perdue
+4901,coral garnick
+4902,walker orenstein
+4903,jayson jenks
+4904,adam jude
+4905,matt day
+4906,larry stone
+4907,matt pentz
+4908,ron judd
+4909,seattle times staff
+4910,jim brunner
+4911,sara jean green
+4912,paige collins
+4913,danielle braff
+4914,beena raghavendran
+4915,bill thorness
+4916,sanjay bhatt
+4917,jack broom
+4918,"laurie kellman, jill colvin"
+4919,sadie gurman
+4920,
+4921,moira macdonald
+4922,linda shaw
+4923,rebecca teagarden
+4924,adam jude
+4925,walker orenstein
+4926,kristen wyatt
+4927,geoff baker
+4928,ben nuckols
+4929,andy perdue
+4930,janie mccauley
+4931,jon talton
+4932,ryan divish
+4933,sara jean green
+4934,owen r. smith
+4935,bob condotta
+4936,jim brunner
+4937,erik lacitis
+4938,matt day
+4939,ángel gonzález
+4940,jessica lee
+4941,sara jean green
+4942,soren andersen
+4943,william neuman
+4944,"julie bykowicz, thomas beaumont"
+4945,paul dorpat
+4946,jennifer peltz
+4947,providence cicero
+4948,bethany jean clement
+4949,harrison cahill
+4950,ciscoe morris
+4951,matt day
+4952,daniel beekman
+4953,ron judd
+4954,tan vinh
+4955,daniel beekman
+4956,seth borenstein
+4957,mark kennedy
+4958,charlie zaillian
+4959,
+4960,christopher elliott
+4961,sanjay bhatt
+4962,tricia romano
+4963,bob condotta
+4964,"daisy nguyen, jake coyle"
+4965,tricia romano
+4966,rob owen
+4967,seattle times staff
+4968,daniel neman
+4969,nicole tsong
+4970,bob condotta
+4971,blanca torres
+4972,christine clarridge
+4973,sami edge
+4974,hugo martin
+4975,seattle times staff
+4976,gene balk / fyi guy
+4977,john higgins
+4978,christopher elliott
+4979,nicole brodeur
+4980,mary ann gwinn
+4981,moira macdonald
+4982,terri yablonsky stat
+4983,erik lacitis
+4984,"joe graedon, teresa graedon / people’s pharmacy"
+4985,ryan divish
+4986,mark morical
+4987,
+4988,verena dobnik
+4989,bob condotta
+4990,kevin freking
+4991,adam jude
+4992,mesfin fekadu
+4993,"josh lederman, mark thiessen"
+4994,the seattle times editorial board
+4995,scott smith
+4996,seattle times staff
+4997,russell contreras
+4998,walker orenstein
+4999,"seth borenstein, dan joling"
+5000,erik lacitis
+5001,sean quinton
+5002,katherine long
+5003,charles ornstein
+5004,janet i. tu
+5005,malcolm ritter
+5006,jennifer sullivan
+5007,bob condotta
+5008,ed guzman
+5009,bob condotta
+5010,
+5011,larry stone
+5012,ed guzman
+5013,z-inactive-tyler
+5014,christine clarridge
+5015,seattle times staff
+5016,andy perdue
+5017,hal bernton
+5018,
+5019,"joseph o’sullivan, paige cornwell"
+5020,rolf boone
+5021,joseph o’sullivan
+5022,bob condotta
+5023,seattle times staff
+5024,daniel beekman
+5025,danny westneat
+5026,seattle sketcher gabriel campanario
+5027,jack broom
+5028,tom keogh
+5029,ellen emry heltzel
+5030,ciscoe morris
+5031,geoff baker
+5032,erik lacitis
+5033,
+5034,
+5035,kristin jackson
+5036,larry stone
+5037,dominic gates
+5038,bob condotta
+5039,brett zongker
+5040,seattle times staff
+5041,rebecca teagarden
+5042,shawn marsh
+5043,andie waterman
+5044,christine clarridge
+5045,lynn thompson
+5046,jon talton
+5047,leanne italie
+5048,the associated press
+5049,larry stone
+5050,"john rogers, jae c. hong"
+5051,ryan divish
+5052,the seattle times editorial board
+5053,the associated press
+5054,sanjay bhatt
+5055,ryan divish
+5056,coral garnick
+5057,larry stone
+5058,mike lindblom
+5059,jayson jenks
+5060,alan berner
+5061,katie g. cotterill
+5062,nate cohn
+5063,stefanie loh
+5064,ryan divish
+5065,
+5066,phillip lucas
+5067,andie waterman
+5068,providence cicero
+5069,bethany jean clement
+5070,bob condotta
+5071,nick eaton
+5072,adam jude
+5073,mike carter
+5074,colin diltz
+5075,larry stone
+5076,coral garnick
+5077,greg trotter
+5078,claudia lauer
+5079,
+5080,paul e. fallon
+5081,bob condotta
+5082,
+5083,daniel beekman
+5084,walker orenstein
+5085,sami edge
+5086,rebecca boone
+5087,walker orenstein
+5088,walker orenstein
+5089,scott mayerowitz
+5090,leanne italie
+5091,rick steves' europe
+5092,aj kitt
+5093,tan vinh
+5094,the seattle times editorial board
+5095,the associated press
+5096,nick eaton
+5097,valerie easton
+5098,bob condotta
+5099,jack broom
+5100,evan bush
+5101,christine clarridge
+5102,
+5103,mike lindblom
+5104,matthew brunwasser
+5105,walker orenstein
+5106,matt pentz
+5107,sandi doughton
+5108,jessica gresko
+5109,bob condotta
+5110,christine clarridge
+5111,rachel lerman
+5112,hal bernton
+5113,"alan suderman, john raby, jonathan drew"
+5114,joan lowy
+5115,andie waterman
+5116,jessica lee
+5117,seattle times staff
+5118,jim salter
+5119,julie pace
+5120,dan murtaugh
+5121,evan bush
+5122,evan bushand hal bernton
+5123,brian j. cantwell
+5124,jill lawless
+5125,"josh liebeskind, mike baker"
+5126,kristin jackson
+5127,caleb jones
+5128,leora y. bloom
+5129,seattle times staff
+5130,sam sifton
+5131,seattle times staff
+5132,jessica lee
+5133,christine clarridge
+5134,jon talton
+5135,seattle times staff
+5136,andie waterman
+5137,patricia cohen
+5138,rachel lerman
+5139,seattle times staff
+5140,adam jude
+5141,moira macdonald
+5142,sanjay bhatt
+5143,
+5144,jay greene
+5145,nicholas k. geranios
+5146,seattle times staff
+5147,sami edge
+5148,neil irwin
+5149,the seattle times editorial board
+5150,greg gilbert
+5151,daniel beekman
+5152,tom metcalf
+5153,derrik j. lang
+5154,david dishneau
+5155,sadie gurman
+5156,david tanis
+5157,seattle times staff
+5158,michael upchurch
+5159,nicole tsong
+5160,kristin jackson
+5161,geoff baker
+5162,marilynn marchione
+5163,mike lindblom
+5164,larry stone
+5165,danielle campoamor
+5166,larry stone
+5167,steve miletich
+5168,"evan bush, hal bernton"
+5169,sylvie corbet
+5170,jessica lee
+5171,ben nuckols
+5172,"bob young, daniel beekman"
+5173,martha belisle
+5174,mike lindblom
+5175,joe mcdonald
+5176,lynn thompson
+5177,seattle times staff
+5178,
+5179,moira macdonald
+5180,bob condotta
+5181,
+5182,jon talton
+5183,daniel beekman
+5184,"hal bernton, daniel beekman"
+5185,richard seven
+5186,lynn thompson
+5187,robbyn peters bennett
+5188,george erb
+5189,dave kolpack
+5190,the associated press
+5191,alysa hullett
+5192,alison bowen
+5193,seattle times staff
+5194,verena dobnik
+5195,lauren kronebusch
+5196,bob condotta
+5197,lynn thompson
+5198,"sanjay bhatt, mike carter"
+5199,"eric talmadge, foster klug"
+5200,katherine long
+5201,jason keyser
+5202,"lewis kamb, christine willmsen"
+5203,hal bernton
+5204,gene balk / fyi guy
+5205,
+5206,tom keogh
+5207,misha berson
+5208,mark thiessen
+5209,steve miletich
+5210,christopher torchia
+5211,marcia dunn
+5212,steve peoples
+5213,
+5214,brier dudley
+5215,the associated press
+5216,catherine m. allchin
+5217,rick steves' europe
+5218,"mike corder, dusan stojanovic"
+5219,mike lindblom
+5220,lynda v. mapes
+5221,
+5222,seattle times staff
+5223,"eric schmitt, michael r. gordon"
+5224,"amy chozick, patrick healy"
+5225,elisabeth behrmann
+5226,
+5227,"paige cornwell, walker orenstein"
+5228,dominic gates
+5229,tricia romano
+5230,bob condotta
+5231,walker orenstein
+5232,scott bauer
+5233,"janie har, justin pritchard"
+5234,michael mcdonald
+5235,ken thomas
+5236,walker orenstein
+5237,daniel neman
+5238,hugh millen
+5239,john higgins
+5240,tricia romano
+5241,the associated press
+5242,nicole tsong
+5243,jerry large
+5244,the associated press
+5245,bob condotta
+5246,associated press staff
+5247,"julie johnsson, andrea rothman, matthew miller"
+5248,seattle times staff
+5249,matt calkins
+5250,jennifer sullivan
+5251,ángel gonzález
+5252,beena raghavendran
+5253,daniel beekman
+5254,nina shapiro
+5255,ed guzman
+5256,matt day
+5257,gene balk / fyi guy
+5258,the seattle times editorial board
+5259,bob condotta
+5260,matt calkins
+5261,the seattle times editorial board
+5262,bob condotta
+5263,"ellen knickmeyer, olga r. rodriguez"
+5264,"nina shapiro, jim brunner"
+5265,bill draper
+5266,the associated press
+5267,christy karras
+5268,bob condotta
+5269,laura coffey
+5270,seattle times staff
+5271,paul barrett
+5272,
+5273,jennifer sullivan
+5274,colin diltz
+5275,joseph o’sullivan
+5276,seattle times staff
+5277,paul barrett
+5278,lynda v. mapes
+5279,seattle times staff
+5280,the associated press
+5281,"jim brunner, nina shapiro"
+5282,nina shapiro
+5283,bob condotta
+5284,ryan divish
+5285,lauren frohne
+5286,tyrone beason
+5287,michael upchurch
+5288,larry stone
+5289,misha berson
+5290,sean axmaker
+5291,tyrone beason
+5292,mary ann gwinn
+5293,danny westneat
+5294,
+5295,seattle times staff
+5296,bob condotta
+5297,"paige cornwell, jessica lee"
+5298,stefanie loh
+5299,matt calkins
+5300,lauran neergaard
+5301,"steve peoples, will weissert"
+5302,
+5303,seattle times staff
+5304,john higgins
+5305,
+5306,
+5307,hal bernton
+5308,dominic gates
+5309,"abdullah al-shihri, adam schreck"
+5310,
+5311,
+5312,
+5313,paul dorpat
+5314,andy perdue
+5315,ron judd
+5316,seattle times staff
+5317,the associated press
+5318,joan lowy
+5319,evan bush
+5320,christine clarridge
+5321,joseph o’sullivan
+5322,jay greene
+5323,seattle times staff
+5324,brian j. cantwell
+5325,lauran neergaard
+5326,marcia dunn
+5327,
+5328,jennifer sullivan
+5329,"sanjay bhatt, ángel gonzález"
+5330,glenn gamboa
+5331,mary ann gwinn
+5332,"bob condotta, jayson jenks"
+5333,nicole brodeur
+5334,suzanne g. beyer
+5335,mike lindblom
+5336,"jonathan lemire, jennifer peltz"
+5337,christine clarridge
+5338,bob young
+5339,seattle times staff
+5340,jessica lee
+5341,sandi doughton
+5342,john noble wilford
+5343,don shelton
+5344,dominic gates
+5345,brian j. cantwell
+5346,
+5347,nick eaton
+5348,lawrence w. cheek
+5349,"katherine long, jessica lee"
+5350,melissa clark
+5351,kristin jackson
+5352,bob condotta
+5353,ciscoe morris
+5354,nicole brodeur
+5355,lewis kamb
+5356,ángel gonzález
+5357,"brian thomas gallagher, bethany jean clement"
+5358,bethany jean clement
+5359,"evan bush, colin diltz"
+5360,misha berson
+5361,bob condotta
+5362,the seattle times editorial board
+5363,bob condotta
+5364,hal bernton
+5365,seattle times staff
+5366,seattle times staff
+5367,dominic gates
+5368,jonel aleccia
+5369,"mari yamaguchi, ken moritsugu"
+5370,lynn thompson
+5371,christine clarridge
+5372,melissa davis
+5373,"jacques billeaud, paul davenport"
+5374,nicholas k. geranios
+5375,adrienne carter
+5376,
+5377,valerie easton
+5378,tom keogh
+5379,"lorne cook, raf casert"
+5380,gregory katz
+5381,geoff baker
+5382,bob condotta
+5383,jon talton
+5384,lynn thompson
+5385,katherine long
+5386,kim chandler
+5387,"katherine long, jessica lee"
+5388,seattle times staff
+5389,david bauder
+5390,nick eaton
+5391,madeline mckenzie
+5392,taylor williams
+5393,danny westneat
+5394,hal bernton
+5395,"paul mozur, jane perlez"
+5396,"john higgins, joseph o’sullivan"
+5397,dee riggs
+5398,ángel gonzález
+5399,jayson jenks
+5400,larry stone
+5401,gina cole
+5402,bob young
+5403,paige cornwell
+5404,brian j. cantwell
+5405,stephanie rosenbloom
+5406,mark yuasa
+5407,alina hartounian
+5408,seattle sketcher gabriel campanario
+5409,rebekah denn
+5410,nicole tsong
+5411,rachel lerman
+5412,mike lindblom
+5413,jennifer sullivan
+5414,frazier moore
+5415,"john higgins, joseph o’sullivan"
+5416,michael upchurch
+5417,bob condotta
+5418,seattle times staff
+5419,bob condotta
+5420,paige cornwell
+5421,hal bernton
+5422,adam beam
+5423,paul de barros
+5424,jonel aleccia
+5425,jayson jenks
+5426,ángel gonzález
+5427,sandi doughton
+5428,matt calkins
+5429,seattle times staff
+5430,seattle times staff
+5431,adam jude
+5432,"steven lee myers, clifford krauss"
+5433,matt day
+5434,seattle times staff
+5435,bob condotta
+5436,julie johnsson
+5437,adam jude
+5438,nicholas k. geranios
+5439,seattle times staff
+5440,the associated press
+5441,catherine lucey
+5442,nicole tsong
+5443,the seattle times editorial board
+5444,frances d'emilio
+5445,michael upchurch
+5446,jeff albertson
+5447,brian bakst
+5448,jessica lee
+5449,bob condotta
+5450,rachel la corte
+5451,
+5452,erik lacitis
+5453,frances d'emilio
+5454,dan sewell
+5455,jennifer sullivan
+5456,leah eskin
+5457,ángel gonzález
+5458,tan vinh
+5459,valerie easton
+5460,"claire galofaro, rachel zoll"
+5461,bethany jean clement
+5462,bob condotta
+5463,
+5464,rob owen
+5465,danny westneat
+5466,jim brunner
+5467,"christine clarridge, mike carter"
+5468,christine clarridge
+5469,don shelton
+5470,the associated press
+5471,lewis kamb
+5472,christine clarridge
+5473,nina shapiro
+5474,
+5475,dominic gates
+5476,"cox newspapers, the seattle times"
+5477,john higgins
+5478,maram mazen
+5479,regina garcia cano
+5480,jennifer peltz
+5481,the associated press
+5482,matt day
+5483,bethany jean clement
+5484,julia moskin
+5485,melissa clark
+5486,bob condotta
+5487,david bauder
+5488,mike carter
+5489,adam jude
+5490,ángel gonzález
+5491,ryan divish
+5492,mary ann gwinn
+5493,nick eaton
+5494,bob young
+5495,jessica lee
+5496,
+5497,sanjay bhatt
+5498,tan vinh
+5499,christine clarridge
+5500,seattle times staff
+5501,"brian seppi, michael dudas"
+5502,ángel gonzález
+5503,mark yuasa
+5504,seattle times staff
+5505,
+5506,christine clarridge
+5507,sara jean green
+5508,seattle times staff
+5509,jennifer sullivan
+5510,christine clarridge
+5511,alice kaderlan
+5512,
+5513,mary ann gwinn
+5514,keri wiginton
+5515,"sun sentinel, seattle times staff"
+5516,seattle times staff
+5517,katherine long
+5518,
+5519,seth borenstein
+5520,jennifer sullivan
+5521,nicole tsong
+5522,larry stone
+5523,hugh millen
+5524,daniel beekman
+5525,nick eaton
+5526,seattle times staff
+5527,gene balk / fyi guy
+5528,the seattle times editorial board
+5529,the associated press
+5530,coral garnick
+5531,jennifer sullivan
+5532,ryan divish
+5533,
+5534,seattle times staff
+5535,matt calkins
+5536,marcia dunn
+5537,
+5538,bob condotta
+5539,jonel aleccia
+5540,tricia romano
+5541,gene johnson
+5542,ed guzman
+5543,mike lindblom
+5544,
+5545,"dan joling, jonathan fahey"
+5546,larry stone
+5547,the associated press
+5548,bob condotta
+5549,coral garnick
+5550,alan berner
+5551,jayson jenks
+5552,matt day
+5553,sean quinton
+5554,bob condotta
+5555,paul barrett
+5556,paul barrett
+5557,paul barrett
+5558,danny westneat
+5559,nicole brodeur
+5560,larry stone
+5561,seattle times staff
+5562,seattle times staff
+5563,rachel lerman
+5564,
+5565,lynda v. mapes
+5566,moira macdonald
+5567,sandi doughton
+5568,misha berson
+5569,alice kaderlan
+5570,matt calkins
+5571,"adam jude, percy allen"
+5572,marcia dunn
+5573,katherine long
+5574,bob condotta
+5575,brian j. cantwell
+5576,seattle sketcher gabriel campanario
+5577,bob condotta
+5578,nicole brodeur
+5579,rick bentley
+5580,paige cornwell
+5581,tricia romano
+5582,danny westneat
+5583,mike lindblom
+5584,paige cornwell
+5585,"nicole winfield, michael r. sisak"
+5586,jim brunner
+5587,bob condotta
+5588,
+5589,"erik lacitis, christine clarridge"
+5590,seattle times staff
+5591,"lewis kamb, jennifer sullivan"
+5592,stefanie loh
+5593,brian j. cantwell
+5594,the seattle times editorial board
+5595,"nicole winfield, david crary"
+5596,kristin jackson
+5597,bob condotta
+5598,david takami
+5599,matt calkins
+5600,dominic gates
+5601,providence cicero
+5602,andy perdue
+5603,sanjay bhatt
+5604,bob condotta
+5605,rebecca teagarden
+5606,brian j. cantwell
+5607,"jennifer sullivan, daniel beekman"
+5608,julie pace
+5609,nina culver
+5610,the associated press
+5611,seattle times staff
+5612,"lewis kamb, matt day"
+5613,"matthew daly, tom krisher"
+5614,"mike lindblom, mike baker"
+5615,ángel gonzález
+5616,katherine long
+5617,
+5618,"erik lacitis, christine clarridge"
+5619,sanjay bhatt
+5620,erica werner
+5621,seattle times staff
+5622,seattle times staff
+5623,"lewis kamb, erik lacitis"
+5624,jay inslee
+5625,bob condotta
+5626,seattle times sports staff
+5627,
+5628,mike lindblom
+5629,bob condotta
+5630,
+5631,"nicole winfield, erica werner"
+5632,matthew perrone
+5633,jim heintz
+5634,
+5635,paul dorpat
+5636,aya batrawy
+5637,susan kelleher
+5638,
+5639,"mike carter, steve miletich"
+5640,adam jude
+5641,
+5642,tan vinh
+5643,seattle times staff
+5644,seattle times staff
+5645,bethany jean clement
+5646,ciscoe morris
+5647,brian j. cantwell
+5648,
+5649,gene stout
+5650,"nicole winfield, erica werner"
+5651,matt day
+5652,caitlin moran
+5653,seattle times staff
+5654,joseph o’sullivan
+5655,john higgins
+5656,jayson jenks
+5657,jack broom
+5658,stefanie loh
+5659,jessica lee
+5660,christine clarridge
+5661,evan bush
+5662,jeff layton
+5663,valerie easton
+5664,noam scheiber
+5665,brian j. cantwell
+5666,
+5667,katherine long
+5668,ken dilanian
+5669,"geir moulson, pan pylas"
+5670,bob condotta
+5671,dominic gates
+5672,frazier moore
+5673,rebekah denn
+5674,"josh lederman, nicole winfield"
+5675,brian thomas gallagher
+5676,larry stone
+5677,the seattle times editorial board
+5678,brian j. cantwell
+5679,nick eaton
+5680,jay greene
+5681,jonel aleccia
+5682,danny westneat
+5683,sean quinton
+5684,the associated press
+5685,mike lindblom
+5686,the associated press
+5687,bob condotta
+5688,janet i. tu
+5689,the associated press
+5690,bruce weber
+5691,john rogers
+5692,matt calkins
+5693,
+5694,jonel aleccia
+5695,nicole brodeur
+5696,sanjay bhatt
+5697,rick steves' europe
+5698,david warren
+5699,"matthew brown, mead gruver"
+5700,leora y. bloom
+5701,"nicole winfield, rachel zoll"
+5702,john higgins
+5703,adam jude
+5704,dominic gates
+5705,gayle clemans
