@@ -1,4 +1,4 @@
-# Roan Finkle's work for the Social Media Scheduler Project at the CRC Summer 2024.
+# Roan's work for the Social Media Scheduler Project at the CRC Summer 2024.
 
 Here I will give a walkthrough of my code in case someone picks up where I left off.
 
